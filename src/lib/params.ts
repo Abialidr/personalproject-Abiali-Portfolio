@@ -1,7 +1,7 @@
 import { MY_EDUCATIONS } from './educations.params';
 import MY_EXPERIENCES from './experiences.params';
 import MY_PROJECTS from './projects.params';
-import { PRO_SKILLS, INTER_SKILLS, BEGGINER_SKILLS } from './skills.params';
+import { PRO_SKILLS, INTER_SKILLS, BEGGINER_SKILLS, OTHER_SKILLS } from './skills.params';
 import {
 	Platform,
 	type HomePageParams,
@@ -124,7 +124,10 @@ export const BEGGINERSKILLS: SkillsPageParams = {
 	title: 'Skills',
 	items: BEGGINER_SKILLS
 };
-
+export const OTHERSKILLS: SkillsPageParams = {
+	title: 'Skills',
+	items: OTHER_SKILLS
+};
 export const RESUME: ResumePageParams = {
 	title: 'Resumé',
 	item: ''

@@ -9,6 +9,7 @@ const a = (light: string, dark?: string): Asset =>
 
 const Assets = {
 	AWS: a('aws.svg'),
+	AWSSDK: a('awssdk.png'),
 	Multer: a('multer.svg'),
 	Fast: a('fast.png'),
 	Php: a('php.svg'),
@@ -86,7 +87,25 @@ const Assets = {
 	Jest: a('jest.png'),
 	Unocss: a('unocss.svg'),
 	Ruvy: a('ruvy.svg'),
-	Postcss: a('postcss.svg')
+	Postcss: a('postcss.svg'),
+	NPM: a('Npmlogo.svg'),
+	Antd: a('antd.svg'),
+	Axios: a('axios.svg'),
+	Tawkto: a('tawkto.png'),
+	Webvitals: a('webvital.png'),
+	Sass1: a('sass1.svg'),
+	Lottie: a('lottie.png'),
+	ChartJs: a('chartjs.svg'),
+	Lidojs: a('lidosjs.jpeg'),
+	Vercel: a('vercel.png'),
+	Moment: a('moment.png'),
+	Formik: a('formik.png'),
+	NodeMon: a('nodemon.png'),
+	D3: a('d3.png'),
+	socket: a('socket.png'),
+	Capacitor: a('capacitor.png'),
+	Agora: a('agora.png'),
+	Git: a('git.png')
 };
 
 export default Assets;

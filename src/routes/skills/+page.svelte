@@ -1,7 +1,7 @@
 <script lang="ts">
 	import Card from '$lib/components/Card/Card.svelte';
 	import { base } from '$app/paths';
-	import { PROSKILLS, INTERSKILLS, BEGGINERSKILLS } from '$lib/params';
+	import { PROSKILLS, INTERSKILLS, BEGGINERSKILLS, OTHERSKILLS } from '$lib/params';
 	import SearchPage from '$lib/components/SearchPage.svelte';
 	import type { Skill } from '$lib/types';
 	import { isBlank } from '@riadh-adrani/utils';
@@ -69,6 +69,22 @@
 	<!-- <h4 style="text-align: center;">( just started learning )</h4> -->
 	<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-2 md:gap-3 lg:gap-5 mt-10">
 		{#each BEGGINERSKILLS.items as skill (skill.slug)}
+			<Card
+				classes={['cursor-pointer decoration-none']}
+				tiltDegree={1}
+				bgImg={getAssetURL(skill.logo)}
+				color={skill.color}
+			>
+				<h3 class="text-[var(--tertiary-text)]">{skill.name}</h3>
+			</Card>
+		{/each}
+	</div>
+	<!-- {/if} -->
+</SearchPage>
+<SearchPage title="Other Skills" on:search={onSearch}>
+	<!-- <h4 style="text-align: center;">( just started learning )</h4> -->
+	<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-2 md:gap-3 lg:gap-5 mt-10">
+		{#each OTHERSKILLS.items as skill (skill.slug)}
 			<Card
 				classes={['cursor-pointer decoration-none']}
 				tiltDegree={1}
