@@ -5,16 +5,17 @@
 
 	let el: HTMLElement;
 
-	export let color = '#ffffff00';
+	export let color: string = '#ffffff00';
 	export let margin = '0px';
 	export let tiltDegree = 5;
 	export let classes: Array<string> = [];
 	export let href: undefined | string = undefined;
 	export let bgImg: string | undefined = undefined;
 
-	$: borderColor = changeColorOpacity(color, 0.5);
-	$: dropColor = changeColorOpacity(color, 0.15);
+	$: borderColor = changeColorOpacity(color, 1);
+	$: dropColor = changeColorOpacity(color, 0.3);
 	$: bgColor = changeColorOpacity(color, 0.01);
+	console.log(`🚀 ~ borderColor:`, borderColor, dropColor, bgColor, color);
 
 	$: {
 		if (el) {

@@ -1,7 +1,7 @@
 <script lang="ts">
 	import Card from '$lib/components/Card/Card.svelte';
 	import { base } from '$app/paths';
-	import { PROSKILLS, INTERSKILLS ,BEGGINERSKILLS } from '$lib/params';
+	import { PROSKILLS, INTERSKILLS, BEGGINERSKILLS } from '$lib/params';
 	import SearchPage from '$lib/components/SearchPage.svelte';
 	import type { Skill } from '$lib/types';
 	import { isBlank } from '@riadh-adrani/utils';
@@ -31,10 +31,10 @@
 				classes={['cursor-pointer decoration-none']}
 				tiltDegree={1}
 				bgImg={getAssetURL(skill.logo)}
+				color={skill.color}
 			>
 				<h3 class="text-[var(--tertiary-text)]">{skill.name}</h3>
-				<span style="margin-top:5px" class="text-[var(--tertiary-text)]">{skill.years} years</span
-				>
+				<span style="margin-top:5px" class="text-[var(--tertiary-text)]">{skill.years} years</span>
 			</Card>
 		{/each}
 	</div>
@@ -55,6 +55,7 @@
 				classes={['cursor-pointer decoration-none']}
 				tiltDegree={1}
 				bgImg={getAssetURL(skill.logo)}
+				color={skill.color}
 			>
 				<h3 class="text-[var(--tertiary-text)]">{skill.name}</h3>
 				<!-- <h5 class="text-[var(--tertiary-text)]">{skill.years} years</h5> -->
@@ -72,6 +73,7 @@
 				classes={['cursor-pointer decoration-none']}
 				tiltDegree={1}
 				bgImg={getAssetURL(skill.logo)}
+				color={skill.color}
 			>
 				<h3 class="text-[var(--tertiary-text)]">{skill.name}</h3>
 			</Card>

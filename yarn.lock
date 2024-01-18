@@ -1921,6 +1921,16 @@ svelte-preprocess@^5.0.4:
     sorcery "^0.11.0"
     strip-indent "^3.0.0"
 
+svelte-video-player@^1.2.5:
+  version "1.2.5"
+  resolved "https://registry.npmjs.org/svelte-video-player/-/svelte-video-player-1.2.5.tgz"
+  integrity sha512-iImQY6qnEEE0fngq9aANKMKDD2knTBcsyTLKHc3hyZ/nj/ZExwBAJ7MbxlOnyLpSKzZA1KaSSaqKXeTRWZOOlw==
+
+svelte-video@^0.0.1:
+  version "0.0.1"
+  resolved "https://registry.npmjs.org/svelte-video/-/svelte-video-0.0.1.tgz"
+  integrity sha512-jDQaKjekNMUEFDnJkX4ns8JUccw/KP/Am/R2myLhMuMO8BWE88bG/JdX76znyTFNIZnAx/fBFPu1ebM8Isod+w==
+
 "svelte@^3.19.0 || ^4.0.0-next.0", svelte@^3.2.0, "svelte@^3.23.0 || ^4.0.0-next.0 || ^4.0.0", "svelte@^3.54.0 || ^4.0.0", "svelte@^3.54.0 || ^4.0.0-next.0", "svelte@^3.55.0 || ^4.0.0-next.0 || ^4.0.0", svelte@4.2.1:
   version "4.2.1"
   resolved "https://registry.npmjs.org/svelte/-/svelte-4.2.1.tgz"

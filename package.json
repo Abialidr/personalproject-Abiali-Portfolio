@@ -48,6 +48,8 @@
 	"type": "module",
 	"dependencies": {
 		"bootstrap": "^5.3.2",
-		"dayjs": "^1.11.10"
+		"dayjs": "^1.11.10",
+		"svelte-video": "^0.0.1",
+		"svelte-video-player": "^1.2.5"
 	}
 }

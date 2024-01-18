@@ -12,12 +12,14 @@
 	import Banner from '$lib/components/Banner/Banner.svelte';
 	import UIcon from '$lib/components/Icon/UIcon.svelte';
 	import CardDivider from '$lib/components/Card/CardDivider.svelte';
+	import Videos from '$lib/components/Videos.svelte';
 
 	export let data: { project?: Project };
 
 	const { title } = PROJECTS;
 
 	const screenshots = data.project?.screenshots ?? [];
+	const videos = data.project?.video ?? [];
 
 	$: computedTitle = data.project ? `${data.project.name} - ${title}` : title;
 </script>
@@ -92,6 +94,15 @@
 							<div class="col-center gap-3 overflow-hidden w-100% h-100% rounded-10px">
 								<img class="aspect-video w-100%" src={item.src} alt={item.label} />
 								<p class="text-[var(--tertiary-text)] font-300">{item.label}</p>
+							</div>
+						{/each}
+						{#each videos as item}
+							<div class="col-center gap-3 overflow-hidden w-100% h-100% rounded-10px">
+								<Videos
+									videoSource="https://sveltejs.github.io/assets/caminandes-llamigos.mp4"
+									poster="https://sveltejs.github.io/assets/caminandes-llamigos.jpg"
+									label={item.label}
+								/>
 							</div>
 						{/each}
 					</div>

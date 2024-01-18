@@ -30,6 +30,7 @@ export interface Item {
 	shortDescription: string;
 	description: string;
 	screenshots?: Array<{ src: string; label: string }>;
+	video?: Array<{ src: string; label: string }>;
 	years?: string;
 }
 
