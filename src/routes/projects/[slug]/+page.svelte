@@ -13,6 +13,7 @@
 	import UIcon from '$lib/components/Icon/UIcon.svelte';
 	import CardDivider from '$lib/components/Card/CardDivider.svelte';
 	import Videos from '$lib/components/Videos.svelte';
+	import VideoPlayer from 'svelte-video-player';
 
 	export let data: { project?: Project };
 
@@ -45,7 +46,7 @@
 					</div>
 					<div class="row-center flex-wrap text-[0.9em] text-[var(--tertiary-text)] m-b-2">
 						{#each data.project.links as item}
-							<Chip href={item.to}>
+							<Chip href={item.to} >
 								<div class="row-center gap-2">
 									<UIcon icon="i-carbon-link" />
 									<span>{item.label}</span>
@@ -55,10 +56,7 @@
 					</div>
 					<div class="row-center flex-wrap m-b-2">
 						{#each data.project.skills as item}
-							<Chip
-								classes="inline-flex flex-row items-center justify-center"
-								href={`${base}/skills/${item.slug}`}
-							>
+							<Chip classes="inline-flex flex-row items-center justify-center">
 								<CardLogo
 									src={getAssetURL(item.logo)}
 									alt={item.name}
@@ -92,17 +90,15 @@
 					>
 						{#each screenshots as item}
 							<div class="col-center gap-3 overflow-hidden w-100% h-100% rounded-10px">
-								<img class="aspect-video w-100%" src={item.src} alt={item.label} />
+								<a href={item.src} target="_blank">
+									<img
+										class="aspect-video w-100%"
+										style="object-fit:contain"
+										src={item.src}
+										alt={item.label}
+									/>
+								</a>
 								<p class="text-[var(--tertiary-text)] font-300">{item.label}</p>
-							</div>
-						{/each}
-						{#each videos as item}
-							<div class="col-center gap-3 overflow-hidden w-100% h-100% rounded-10px">
-								<Videos
-									videoSource="https://sveltejs.github.io/assets/caminandes-llamigos.mp4"
-									poster="https://sveltejs.github.io/assets/caminandes-llamigos.jpg"
-									label={item.label}
-								/>
 							</div>
 						{/each}
 					</div>
@@ -114,5 +110,24 @@
 				{/if}
 			</div>
 		</div>
+		{#if videos.length > 0}
+			<div
+				class="px-10px grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-5 m-t-10 "
+			>
+				{#each videos as item}
+					<div class="col-center gap-3 overflow-hidden w-100% h-100% rounded-10px">
+						<div class="col-center gap-3 overflow-hidden w-100% h-100% rounded-10px">
+							<VideoPlayer width="500" height="500" poster={item.thumbnail} source={item.src} />
+							<p class="text-[var(--tertiary-text)] font-300">{item.label}</p>
+						</div>
+					</div>
+				{/each}
+			</div>
+		{:else}
+			<div class="p-5 col-center gap-3 m-y-auto text-[var(--border)]">
+				<UIcon icon="i-carbon-image" classes="text-3.5em" />
+				<p class="font-300">No Videos found</p>
+			</div>
+		{/if}
 	{/if}
 </div>

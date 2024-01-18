@@ -26,11 +26,11 @@ export type Asset = string | { light: string; dark: string };
 export interface Item {
 	slug: string;
 	name: string;
-	logo: Asset;
+	logo: string | Asset;
 	shortDescription: string;
-	description: string;
+	description: Array<string> | string;
 	screenshots?: Array<{ src: string; label: string }>;
-	video?: Array<{ src: string; label: string }>;
+	video?: Array<{ src: string; label: string; thumbnail: string }>;
 	years?: string;
 }
 

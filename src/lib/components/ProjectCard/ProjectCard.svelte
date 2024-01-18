@@ -25,7 +25,7 @@
 </script>
 
 <Card color={project.color} href={`${base}/projects/${project.slug}`}>
-	<CardLogo alt={project.name} src={getAssetURL(project.logo)} size={40} radius={'0'} />
+	<CardLogo alt={project.name} src={project.logo} size={40} radius={'0'} />
 	<div class="m-t-20px row justify-between items-center">
 		<CardTitle title={project.name} />
 		<div class="row">
@@ -53,11 +53,7 @@
 	<CardDivider />
 	<div class="row">
 		{#each project.skills as tech}
-			<ChipIcon
-				logo={getAssetURL(tech.logo)}
-				name={tech.name}
-				href={`${base}/skills/${tech.slug}`}
-			/>
+			<ChipIcon logo={getAssetURL(tech.logo)} name={tech.name} />
 		{/each}
 	</div>
 </Card>

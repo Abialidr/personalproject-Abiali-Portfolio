@@ -273,42 +273,42 @@ export const BEGGINER_SKILLS = [
 
 const All_Skills = [
 	s({
-		slug: 'React Native',
+		slug: 'react native',
 		color: '#61dafb',
 		description: svelte,
 		logo: Assets.ReactJs,
 		name: 'React Native'
 	}),
 	s({
-		slug: 'Firebase',
+		slug: 'firebase',
 		color: '#ffcb29',
 		description: svelte,
 		logo: Assets.Firebase,
 		name: 'Firebase'
 	}),
 	s({
-		slug: 'Nginx',
+		slug: 'nginx',
 		color: '#009900',
 		description: svelte,
 		logo: Assets.Nginx,
 		name: 'Nginx'
 	}),
 	s({
-		slug: 'Electron',
+		slug: 'electron',
 		color: '#9feaf9',
 		description: svelte,
 		logo: Assets.Electron,
 		name: 'Electron'
 	}),
 	s({
-		slug: 'Multer',
+		slug: 'multer',
 		color: '#9feaf9',
 		description: svelte,
 		logo: Assets.Multer,
 		name: 'Multer'
 	}),
 	s({
-		slug: 'JSON web token',
+		slug: 'jwt',
 		color: '#d63aff',
 		description: svelte,
 		logo: Assets.JWT,
@@ -340,7 +340,7 @@ const All_Skills = [
 		color: '#efd48f',
 		description: svelte,
 		logo: Assets.SC,
-		name: 'Styledd Components'
+		name: 'Styled Components'
 	}),
 	s({
 		slug: 'ngrok',
@@ -385,7 +385,7 @@ const All_Skills = [
 		name: 'Typeorm'
 	}),
 	s({
-		slug: 'Svelte',
+		slug: 'svelte',
 		color: '#ff4408',
 		description: svelte,
 		logo: Assets.Svelte,
@@ -473,7 +473,7 @@ const All_Skills = [
 		years: '3'
 	}),
 	s({
-		slug: 'tailwin',
+		slug: 'tailwind',
 		color: '#07b6d5',
 		description:
 			'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent orci enim, congue sit amet justo eget, consequat sollicitudin libero. Etiam iaculis lectus tempor, hendrerit enim in, luctus arcu. Maecenas id enim et nibh ullamcorper auctor ac eu est. Donec imperdiet, diam quis malesuada faucibus, nibh ex gravida sapien, posuere pharetra nunc libero tristique turpis. Sed egestas laoreet semper. In hac habitasse platea dictumst. Praesent vitae est nec felis maximus facilisis. Duis luctus dui id urna tristique varius. Ut vulputate leo arcu, non bibendum arcu pulvinar eget. Fusce semper elit ut congue lacinia. Suspendisse magna diam, tempus vitae interdum eget, dictum vitae nisl. Praesent quis fringilla tortor. Donec vitae sagittis dui.',
@@ -482,7 +482,7 @@ const All_Skills = [
 		years: '2'
 	}),
 	s({
-		slug: 'ExpressJs',
+		slug: 'expressJs',
 		color: '#828282',
 		description: svelte,
 		logo: Assets.ExpressJs,
@@ -490,7 +490,7 @@ const All_Skills = [
 		years: '2.5'
 	}),
 	s({
-		slug: 'NodeJs',
+		slug: 'nodejs',
 		color: '#68bc4a',
 		description: svelte,
 		logo: Assets.NodeJs,
@@ -498,7 +498,7 @@ const All_Skills = [
 		years: '2.5'
 	}),
 	s({
-		slug: 'Mongo DB',
+		slug: 'monodb',
 		color: '#00ed64',
 		description: svelte,
 		logo: Assets.MongoDB,
@@ -506,7 +506,7 @@ const All_Skills = [
 		years: '2.5'
 	}),
 	s({
-		slug: 'Sequelize',
+		slug: 'sequelize',
 		color: '#03afef',
 		description: svelte,
 		logo: Assets.Sequelize,
@@ -514,7 +514,7 @@ const All_Skills = [
 		years: '2.5'
 	}),
 	s({
-		slug: 'Ec2',
+		slug: 'ec2',
 		color: '#f58536',
 		description: svelte,
 		logo: Assets.Ec2,
@@ -522,7 +522,7 @@ const All_Skills = [
 		years: '2'
 	}),
 	s({
-		slug: 'S3',
+		slug: 's3',
 		color: '#468c28',
 		description: svelte,
 		logo: Assets.S3,

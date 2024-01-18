@@ -10,22 +10,29 @@
 
 	let container: HTMLDivElement;
 
-	export let content: string;
+	export let content: string[] | string;
 
-	onMount(() => {
-		marked.use(gfmHeadingId());
-		marked.use(mangle());
+	// onMount(() => {
+	// 	marked.use(gfmHeadingId());
+	// 	marked.use(mangle());
 
-		const sanitizer = createSanitizer(window);
+	// 	const sanitizer = createSanitizer(window);
 
-		if (window) {
-			const parsed = marked.parse(content);
+	// 	if (window) {
+	// 		const parsed = marked.parse(content);
 
-			container.innerHTML = sanitizer.sanitize(parsed);
+	// 		container.innerHTML = sanitizer.sanitize(parsed);
 
-			Prism.highlightAllUnder(container);
-		}
-	});
+	// 		Prism.highlightAllUnder(container);
+	// 	}
+	// });
 </script>
 
-<div bind:this={container} class="markdown-container" />
+{#each content as item}
+	<div class="col-center gap-3 overflow-hidden w-100% h-100% rounded-10px">
+		<div class="col-center gap-3 overflow-hidden w-100% h-100% rounded-10px">
+			<p class="text-[var(--tertiary-text)] font-300">{item}</p>
+		</div>
+	</div>
+	<br />
+{/each}
