@@ -4,7 +4,7 @@
 	import '$lib/index.scss';
 	import { onHydrated, theme } from '$lib/stores/theme';
 	import { onMount } from 'svelte';
-	import Footer from '$lib/components/Footer/Footer.svelte';
+	// import Footer from '$lib/components/Footer/Footer.svelte';
 
 	export const prerender = true;
 

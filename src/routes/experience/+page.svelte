@@ -38,7 +38,7 @@
 			<div
 				class="w-[0.5px] hidden lg:flex top-0 bottom-0 py-50px bg-[var(--border)] absolute rounded"
 			/>
-			{#each result as job, index (job.slug)}
+			{#each items as job, index (job.slug)}
 				<div
 					class={`flex ${
 						index % 2 !== 0 ? 'flex-row' : 'flex-row-reverse'

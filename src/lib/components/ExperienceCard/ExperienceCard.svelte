@@ -10,6 +10,7 @@
 	import UIcon from '../Icon/UIcon.svelte';
 
 	export let experience: Experience;
+	console.log(`🚀 ~ experience:`, experience);
 
 	const months = getTimeDiff(experience.period.from, experience.period.to);
 
@@ -45,15 +46,14 @@
 			</div>
 			<div class="text-[var(--accent-text)] text-[0.9em] font-200">{period}</div>
 			<div class="experience-description">{experience.description}</div>
-			<div class="flex flex-row flex-wrap mt-5">
+			<!-- <div class="flex flex-row flex-wrap mt-5">
 				{#each experience.skills as skill}
 					<ChipIcon
 						logo={getAssetURL(skill.logo)}
 						name={skill.name}
-						href={`${base}/skills/${skill.slug}`}
 					/>
 				{/each}
-			</div>
+			</div> -->
 		</div>
 	</div>
 </Card>

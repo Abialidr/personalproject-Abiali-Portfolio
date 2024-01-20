@@ -46,6 +46,7 @@ export interface IconLink extends Link {
 
 export interface Skill extends Omit<Item, 'shortDescription'> {
 	color: string;
+	description: string;
 }
 
 export interface Project extends Item {
@@ -56,7 +57,8 @@ export interface Project extends Item {
 		to?: Date;
 	};
 	type: string;
-	skills: Array<Skill>;
+	description: string;
+	skills?: Array<Skill>;
 }
 
 export interface Experience extends Project {

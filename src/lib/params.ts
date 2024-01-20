@@ -27,7 +27,6 @@ export const NavBar = {
 };
 
 export const getPlatfromIcon = (platform: Platform): Icons => {
-	console.log(`🚀 ~ file: params.ts:29 ~ getPlatfromIcon ~ platform:`, platform);
 	switch (platform) {
 		case Platform.GitHub:
 			return Icons.GitHub;
@@ -88,7 +87,7 @@ export const HOME: HomePageParams = {
 		},
 		{
 			platform: Platform.Whatsapp,
-			link: ' https://wa.me/message/AUNZI5IL5UMDA1 '
+			link: 'https://wa.me/message/AUNZI5IL5UMDA1 '
 		},
 		{
 			platform: Platform.Instagram,

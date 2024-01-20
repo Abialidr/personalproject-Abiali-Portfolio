@@ -7,44 +7,13 @@
 	import { getAssetURL } from '$lib/data/assets';
 	import { TITLE_SUFFIX } from '$lib/params';
 	import { HOME, getPlatfromIcon, isEmail } from '$lib/params';
-	import {PRO_SKILLS} from '$lib/skills.params';
+	import { PRO_SKILLS } from '$lib/skills.params';
 	import { useTitle } from '$lib/utils/helpers';
 	import { onMount } from 'svelte';
 	const { description, lastName, links, name, title, skills } = HOME;
 
 	let currentSectionIndex = 0,
 		currentScrollY = 0;
-	// const sections = ['Section 1', 'Section 2', 'Section 3', 'Section 4'];
-	// onMount(() => {
-	// 	const handleScroll = () => {
-	// 		const scrollPosition = window.scrollY;
-	// 		let sectionIndex = 0;
-	// 		sectionIndex = Math.round(scrollPosition / window.innerHeight);
-	// 		if (sectionIndex !== currentSectionIndex) {
-	// 			scrollToSection(sectionIndex);
-	// 			currentSectionIndex = sectionIndex;
-	// 		}
-	// 	};
-
-	// 	window.addEventListener('scroll', handleScroll);
-
-	// 	return () => {
-	// 		window.removeEventListener('scroll', handleScroll);
-	// 	};
-	// });
-
-	// function scrollToSection(index: number) {
-	// 	var targetDiv: any = document.getElementById(`section${index}`);
-	// 	if (targetDiv) {
-	// 		var offsetTop = targetDiv?.offsetTop;
-	// 		window.scrollTo({
-	// 			top: offsetTop,
-	// 			behavior: 'smooth'
-	// 		});
-	// 		console.log(`🚀 ~ file: +page.svelte:63 ~ scrollToSection ~ offsetTop:`, offsetTop);
-	// 	}
-	// }
-	// import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 	let currentSlide = 0;
 	const slides = [
 		'https://via.placeholder.com/800x400/FF5733/ffffff',
@@ -218,7 +187,6 @@
 </div>
 
 <style lang="scss">
-	// @import 'bootstrap/dist/css/bootstrap.min.css';
 	.carousel {
 		position: relative;
 		overflow: hidden;

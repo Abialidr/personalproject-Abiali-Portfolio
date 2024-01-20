@@ -32,7 +32,7 @@
 </div>
 
 <style lang="scss">
-	@use 'bootstrap/dist/css/bootstrap.min.css';
+	// @use 'bootstrap/dist/css/bootstrap.min.css';
 
 	.nav-menu {
 		display: flex;

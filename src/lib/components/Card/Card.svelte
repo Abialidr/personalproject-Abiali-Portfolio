@@ -15,7 +15,6 @@
 	$: borderColor = changeColorOpacity(color, 1);
 	$: dropColor = changeColorOpacity(color, 0.3);
 	$: bgColor = changeColorOpacity(color, 0.01);
-	console.log(`🚀 ~ borderColor:`, borderColor, dropColor, bgColor, color);
 
 	$: {
 		if (el) {
