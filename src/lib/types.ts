@@ -57,7 +57,7 @@ export interface Project extends Item {
 		to?: Date;
 	};
 	type: string;
-	description: string;
+	description: string | Array<string>;
 	skills?: Array<Skill>;
 }
 

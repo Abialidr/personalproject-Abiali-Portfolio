@@ -51,9 +51,14 @@
 		{/if}
 	</div>
 	<CardDivider />
-	<div class="row">
-		{#each project.skills as tech}
-			<ChipIcon logo={getAssetURL(tech.logo)} name={tech.name} />
+	<div class="row hello">
+		{#each project.skills as tech, index}
+		{#if index < 6}
+		<ChipIcon logo={getAssetURL(tech.logo)} name={tech.name} />
+	{/if}
 		{/each}
 	</div>
 </Card>
+<style>
+
+	</style>
