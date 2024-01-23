@@ -3,27 +3,55 @@ import type { Education } from './types';
 
 export const MY_EDUCATIONS: Array<Education> = [
 	{
-		degree: 'Bachelor degree of Computer Science',
-		description: '',
-		location: 'Tunisia',
+		degree: 'Frontend And Backend Developement',
+		description:
+			'My primary source of education in this subject comes from it. I have learned everything primarily through offical technological documentation, YouTube, and other resources like Udemy and blog websites',
+		location: 'Surat',
 		logo: Assets.Unknown,
 		name: '',
-		organization: 'ISTIC',
-		period: { from: new Date(2020, 0, 1), to: new Date(2022, 5, 1) },
-		shortDescription: '',
+		organization: 'Self Education ',
+		period: { from: new Date(2021, 4, 1) },
+		shortDescription:
+			'My primary source of education in this subject comes from it. I have learned everything primarily through offical technological documentation, YouTube, and other resources like Udemy and blog websites',
 		slug: 'dummy-education-item',
-		subjects: ['C', 'Algorithm', 'Algebra', 'Python', 'C++', 'Java', 'English']
+		subjects: []
 	},
 	{
-		degree: 'PhD of Computer Science',
-		description: '',
-		location: 'USA',
+		degree: 'Bachelor of Computer Application | Software Developement',
+		description:
+			'My primary source of education in this subject comes from it. I have learned everything primarily through offical technological documentation, YouTube, and other resources like Udemy and blog websites',
+		location: 'Surat',
 		logo: Assets.Unknown,
-		name: '',
-		organization: 'MIT',
-		period: { from: new Date(2023, 0, 1) },
-		shortDescription: '',
+		name: 'Abiali',
+		organization: 'Veer Narmad South GujaratUniversity',
+		period: { from: new Date(2018, 4, 1), to: new Date(2021, 3, 31) },
+		shortDescription:
+			'My primary source of education in this subject comes from it. I have learned everything primarily through offical technological documentation, YouTube, and other resources like Udemy and blog websites',
 		slug: 'dummy-education-item-2',
-		subjects: ['Assembly', 'Rust', 'Computer Architecture', 'Algorithms and Data structures']
+		subjects: []
+	},
+	{
+		degree: 'Higher Secondary School Certificate',
+		description: 'My primary source of education in this subject comes from',
+		location: 'Surat',
+		logo: Assets.Unknown,
+		name: 'Abiali',
+		organization: 'P R Khatiwala Vidya Sankul',
+		period: { from: new Date(2016, 4, 1), to: new Date(2018, 3, 31) },
+		shortDescription: 'My primary source of education in this subject comes from',
+		slug: 'dummy-education-item-3',
+		subjects: []
+	},
+	{
+		degree: 'Secondary School Certificate',
+		description: 'My primary source of education in this subject comes from',
+		location: 'Surat',
+		logo: Assets.Unknown,
+		name: 'Abiali',
+		organization: 'Madresha Tayyebyah Boys HIgh School',
+		period: { from: new Date(2015, 4, 1), to: new Date(2016, 3, 31) },
+		shortDescription: 'My primary source of education in this subject comes from',
+		slug: 'dummy-education-item-4',
+		subjects: []
 	}
 ];

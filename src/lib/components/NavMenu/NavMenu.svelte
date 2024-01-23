@@ -19,7 +19,7 @@
 		{ title: NavBar.personal, to: '/projects', icon: 'i-carbon-cube' },
 		{ title: NavBar.career, to: '/experience', icon: 'i-carbon-development' },
 		{ title: NavBar.Education, to: '/education', icon: 'i-carbon-education' },
-		{ title: NavBar.resume, to: '/resume', icon: 'i-carbon-result' }
+		{ title: NavBar.resume, to: '', icon: 'i-carbon-result' }
 	];
 </script>
 
@@ -34,10 +34,21 @@
 		</a>
 		<div class="flex flex-row flex-1 self-center justify-center">
 			{#each items as item}
-				<a href={`${base}${item.to}`} class="nav-menu-item !text-[var(--secondary-text)]">
-					<UIcon icon={item.icon} classes="text-1.3em" />
-					<span class="nav-menu-item-label">{item.title}</span>
-				</a>
+				{#if item.title === 'Resume'}
+					<a
+						href={`/AbialiCV.pdf`}
+						download="AbialiCV.pdf"
+						class="nav-menu-item !text-[var(--secondary-text)]"
+					>
+						<UIcon icon={item.icon} classes="text-1.3em" />
+						<span class="nav-menu-item-label">{item.title}</span>
+					</a>
+				{:else}
+					<a href={`${base}${item.to}`} class="nav-menu-item !text-[var(--secondary-text)]">
+						<UIcon icon={item.icon} classes="text-1.3em" />
+						<span class="nav-menu-item-label">{item.title}</span>
+					</a>
+				{/if}
 			{/each}
 		</div>
 		<div class="flex flex-row self-stretch items-stretch gap-1 text-1.15em">
