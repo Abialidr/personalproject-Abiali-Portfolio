@@ -672,7 +672,7 @@ export const MY_PROJECTS: Array<Project> = [
 			'Revamped Spotsaver website at Globalia-Soft, focusing on React JS frontend. Enhanced reservation process with React, Redux Toolkit, and various tech. Streamlined UI, integrated APIs, and collaborated closely for success. ',
 		links: [
 			// { to: 'https://github.com/RiadhAdrani/slick-portfolio-svelte', label: 'GitHub' },
-			{ to: ' https://www.myspotsaver.com/', label: 'Website' }
+			{ to: 'https://www.myspotsaver.com/', label: 'Website' }
 		],
 		logo: '/Project/spotsaver/logo.jpg',
 		name: 'Spotsaver',
@@ -770,7 +770,7 @@ export const MY_PROJECTS: Array<Project> = [
 			'Led Wedcell project from scratch, focusing on Next JS frontend. Integrated diverse tech stack. Platform connects vendors, users, streamlining wedding planning. Developed independently: venue showcases, chat app, e-commerce with payments, Canva-like card editor, WhatsApp integration. Positive experience with precise guidance from CEO Shanteshwar Dixit. Demonstrated versatility, contributing to platform success.			',
 		links: [
 			// { to: 'https://github.com/RiadhAdrani/slick-portfolio-svelte', label: 'GitHub' },
-			{ to: ' https://wedcell.com/', label: 'Website' },
+			{ to: 'https://wedcell.com/', label: 'Website' },
 			{
 				to: `https://play.google.com/store/apps/details?id=wedcell.com&pcampaignid=web_share`,
 				label: 'Mobile App'

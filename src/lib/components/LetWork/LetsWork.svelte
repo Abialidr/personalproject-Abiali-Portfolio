@@ -1,5 +1,4 @@
 <script>
-	import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 	import Icon from '../Icon/Icon.svelte';
 	import { HOME, getPlatfromIcon, isEmail } from '$lib/params';
 	import MainTitle from '../MainTitle/MainTitle.svelte';
@@ -85,5 +84,5 @@
 </div>
 
 <style lang="scss">
-	@use 'bootstrap/dist/css/bootstrap.min.css';
+	@use '../../../../css/bootstrap.min.css';
 </style>
