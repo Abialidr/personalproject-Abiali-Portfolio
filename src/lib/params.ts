@@ -1,6 +1,6 @@
 import { MY_EDUCATIONS } from './educations.params';
 import MY_EXPERIENCES from './experiences.params';
-import MY_PROJECTS from './projects.params';
+import  { MY_PROJECTS, TEST_PROJECTS } from './projects.params';
 import { PRO_SKILLS, INTER_SKILLS, BEGGINER_SKILLS, OTHER_SKILLS } from './skills.params';
 import {
 	Platform,
@@ -104,7 +104,10 @@ export const PROJECTS: ProjectPageParams = {
 	title: 'Projects',
 	items: MY_PROJECTS
 };
-
+export const TESTPROJECTS: ProjectPageParams = {
+	title: 'Projects',
+	items: TEST_PROJECTS
+};
 export const EXPERIENCES: ExperiencePageParams = {
 	title: 'Experiences',
 	items: MY_EXPERIENCES

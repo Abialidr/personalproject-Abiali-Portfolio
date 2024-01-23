@@ -88,6 +88,8 @@
 		--rot-x: 0;
 		--rot-y: 0;
 		max-width: 500px;
+		min-width: 100%;
+		height: 100%;
 		background: linear-gradient(90deg, var(--main) 0%, var(--main) 60%, var(--main-60) 100%),
 			no-repeat right 40% / 40% var(--bg-img);
 

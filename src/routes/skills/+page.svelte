@@ -81,7 +81,7 @@
 	</div>
 	<!-- {/if} -->
 </SearchPage>
-<SearchPage title="Other Skills" on:search={onSearch}>
+<SearchPage title="Known Dependencies" on:search={onSearch}>
 	<!-- <h4 style="text-align: center;">( just started learning )</h4> -->
 	<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-2 md:gap-3 lg:gap-5 mt-10">
 		{#each OTHERSKILLS.items as skill (skill.slug)}

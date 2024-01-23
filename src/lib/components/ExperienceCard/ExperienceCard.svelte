@@ -9,18 +9,14 @@
 	import { base } from '$app/paths';
 	import UIcon from '../Icon/UIcon.svelte';
 
-	export let experience: Experience;
-	console.log(`🚀 ~ experience:`, experience);
-
+	export let experience: any;
 	const months = getTimeDiff(experience.period.from, experience.period.to);
-
 	const from = `${getMonthName(
 		experience.period.from.getMonth()
 	)} ${experience.period.from.getFullYear()}`;
 	const to = experience.period.to
 		? `${getMonthName(experience.period.to.getMonth())} ${experience.period.to.getFullYear()}`
 		: 'Present';
-
 	const period = `${from} - ${to} · ${months}`;
 </script>
 

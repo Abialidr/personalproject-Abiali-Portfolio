@@ -19,7 +19,7 @@
 		}
 
 		result = items.filter(
-			(it) =>
+			(it: any) =>
 				it.name.toLowerCase().includes(query) ||
 				it.company.toLowerCase().includes(query) ||
 				it.description.toLowerCase().includes(query)

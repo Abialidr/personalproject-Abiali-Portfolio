@@ -3,7 +3,7 @@
 	import CardLogo from '$lib/components/Card/CardLogo.svelte';
 	import MainTitle from '$lib/components/MainTitle/MainTitle.svelte';
 	import MY_EXPERIENCES from '$lib/experiences.params';
-	import MY_PROJECTS from '$lib/projects.params';
+	import { MY_PROJECTS, TEST_PROJECTS } from '$lib/projects.params';
 
 	import { base } from '$app/paths';
 	import type { Skill } from '$lib/types';
@@ -36,8 +36,8 @@
 			return [];
 		}
 
-		MY_PROJECTS.forEach((item) => {
-			if (item.skills.some((tech) => tech.slug === skill.slug)) {
+		MY_PROJECTS.forEach((item: any) => {
+			if (item.skills.some((tech: any) => tech.slug === skill.slug)) {
 				out.push({
 					img: getAssetURL(item.logo),
 					display: `${item.name} (${item.type})`,
@@ -47,8 +47,19 @@
 				});
 			}
 		});
-		MY_EXPERIENCES.forEach((item) => {
-			if (item.skills.some((tech) => tech.slug === skill.slug)) {
+		TEST_PROJECTS.forEach((item: any) => {
+			if (item.skills.some((tech: any) => tech.slug === skill.slug)) {
+				out.push({
+					img: getAssetURL(item.logo),
+					display: `${item.name} (${item.type})`,
+					name: item.name,
+					type: 'projects',
+					url: `/projects/${item.slug}`
+				});
+			}
+		});
+		MY_EXPERIENCES.forEach((item: any) => {
+			if (item.skills.some((tech: any) => tech.slug === skill.slug)) {
 				out.push({
 					img: getAssetURL(item.logo),
 					display: `${item.name} @ ${item.company}`,

@@ -2,10 +2,10 @@
 	import Chip from '$lib/components/Chip/Chip.svelte';
 	import ProjectCard from '$lib/components/ProjectCard/ProjectCard.svelte';
 	import SearchPage from '$lib/components/SearchPage.svelte';
-	import { PROJECTS } from '$lib/params';
+	import { PROJECTS, TESTPROJECTS } from '$lib/params';
 	import type { Project, Skill } from '$lib/types';
 	import { onMount } from 'svelte';
-	import {PRO_SKILLS} from '$lib/skills.params';
+	import { PRO_SKILLS } from '$lib/skills.params';
 	import UIcon from '$lib/components/Icon/UIcon.svelte';
 
 	interface SkillFilter extends Skill {
@@ -13,9 +13,12 @@
 	}
 
 	const { items, title } = PROJECTS;
+	const { items: item1 } = TESTPROJECTS;
 
 	let filters: Array<SkillFilter> = PRO_SKILLS.filter((it) => {
-		return items.some((project) => project.skills.some((skill) => skill.slug === it.slug));
+		return items.some((project: any) =>
+			project.skills.some((skill: any) => skill.slug === it.slug)
+		);
 	});
 
 	let search = '';
@@ -36,10 +39,10 @@
 	};
 
 	$: {
-		displayed = items.filter((project) => {
+		displayed = items.filter((project: any) => {
 			const isFiltered =
 				filters.every((item) => !item.isSelected) ||
-				project.skills.some((tech) =>
+				project.skills.some((tech: any) =>
 					filters.some((filter) => filter.isSelected && filter.slug === tech.slug)
 				);
 
@@ -70,14 +73,14 @@
 	});
 </script>
 
-<SearchPage {title} on:search={onSearch}>
-	<div class="projects-filters">
+<SearchPage title={'Projects'} on:search={onSearch}>
+	<!-- <div class="projects-filters">
 		{#each filters as tech}
 			<Chip active={tech.isSelected} classes={'text-0.8em'} on:click={() => onSelected(tech.slug)}
 				>{tech.name}</Chip
 			>
 		{/each}
-	</div>
+	</div> -->
 	{#if displayed.length === 0}
 		<div class="p-5 col-center gap-3 m-y-auto text-[var(--accent-text)] flex-1">
 			<UIcon icon="i-carbon-cube" classes="text-3.5em" />
@@ -86,7 +89,28 @@
 	{:else}
 		<div class="projects-list mt-5">
 			{#each displayed as project}
-				<ProjectCard {project} />
+				<ProjectCard {project} fromto={true} />
+			{/each}
+		</div>
+	{/if}
+</SearchPage>
+<SearchPage title={'Test Tasks'} on:search={onSearch}>
+	<!-- <div class="projects-filters">
+		{#each filters as tech}
+			<Chip active={tech.isSelected} classes={'text-0.8em'} on:click={() => onSelected(tech.slug)}
+				>{tech.name}</Chip
+			>
+		{/each}
+	</div> -->
+	{#if item1.length === 0}
+		<div class="p-5 col-center gap-3 m-y-auto text-[var(--accent-text)] flex-1">
+			<UIcon icon="i-carbon-cube" classes="text-3.5em" />
+			<p class="font-300">Could not find anything...</p>
+		</div>
+	{:else}
+		<div class="projects-list mt-5">
+			{#each item1 as project}
+				<ProjectCard {project} fromto={false} />
 			{/each}
 		</div>
 	{/if}

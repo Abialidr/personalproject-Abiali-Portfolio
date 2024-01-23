@@ -1,8 +1,474 @@
-import Assets from './data/assets';
 import { getSkills } from './skills.params';
 import type { Project } from './types';
+export const TEST_PROJECTS: Array<Project> = [
+	{
+		slug: 'Audio-player-Component',
+		color: '#cccccc',
+		description: [
+			`A sleek custom audio player that seamlessly blends style with functionality. With an intuitive interface and crystal-clear sound quality, this player puts you in control of your music experience. Create personalized playlists, navigate effortlessly, and enjoy your favorite tracks in a visually striking design. Elevate your auditory journey with this innovative and user-friendly audio player – where form meets function for an unparalleled listening experience.`
+		],
 
-const MY_PROJECTS: Array<Project> = [
+		shortDescription:
+			'Introducing our test project: a sleek custom audio player that seamlessly blends style with functionality. With an intuitive interface and crystal-clear sound quality, this player puts you in control of your music experience. Create personalized playlists, navigate effortlessly, and enjoy your favorite tracks in a visually striking design. Elevate your auditory journey with this innovative and user-friendly audio player – where form meets function for an unparalleled listening experience.',
+		links: [
+			// { to: 'https://github.com/RiadhAdrani/slick-portfolio-svelte', label: 'GitHub' },
+			{ to: 'https://abialidr.github.io/Audio-player-Component-test-task/', label: 'Website' },
+			{ to: 'https://github.com/Abialidr/Audio-player-Component-test-task', label: 'GitHub' }
+		],
+		logo: '/logos/no-img.svg',
+		name: 'Audio-player-Component',
+		period: {
+			from: new Date('2022-10-01'),
+			to: new Date('2022-10-15')
+		},
+		skills: getSkills('reactjs', 'js', 'html', 'css'),
+		type: 'Audio Player',
+		screenshots: [
+			{
+				label: 'screen 1',
+				src: '/Project/audio/1.png'
+			},
+			{
+				label: 'screen 2',
+				src: '/Project/audio/2.png'
+			}
+		],
+		video: [
+			{
+				label: 'video 1',
+				src: '/Project/audio/1.webm',
+				thumbnail: '/Project/audio/thum1.png'
+			},
+			{
+				label: 'video 2',
+				src: '/Project/audio/2.webm',
+				thumbnail: '/Project/audio/thum2.png'
+			}
+		]
+	},
+	{
+		slug: 'Avantica-Inovation',
+		color: '#cccccc',
+		description: [
+			`Introducing Avantika Enovation – a rapid, design-focused test task aimed at crafting a cutting-edge component in record time. This project embodies efficiency and innovation, challenging the boundaries of design while adhering to a swift timeline. As a design component, Avantika Enovation promises to deliver a seamless blend of aesthetics and functionality, showcasing your ability to create impactful solutions with speed and precision. Embrace the challenge, and let your design prowess shine in this dynamic and time-sensitive exploration of Avantika Enovation.`
+		],
+
+		shortDescription:
+			'A rapid, design-focused test task aimed at crafting a cutting-edge component in record time. This project embodies efficiency and innovation, challenging the boundaries of design while adhering to a swift timeline. As a design component, Avantika Enovation promises to deliver a seamless blend of aesthetics and functionality, showcasing your ability to create impactful solutions with speed and precision. Embrace the challenge, and let your design prowess shine in this dynamic and time-sensitive exploration of Avantika Enovation.',
+		links: [
+			// { to: 'https://github.com/RiadhAdrani/slick-portfolio-svelte', label: 'GitHub' },
+			{ to: 'https://abialidr.github.io/avantica-inovation-test-task/', label: 'Website' },
+			{ to: 'https://github.com/Abialidr/avantica-inovation-test-task', label: 'GitHub' }
+		],
+		logo: '/logos/no-img.svg',
+		name: 'Avantica-Inovation',
+		period: {
+			from: new Date('2022-10-01'),
+			to: new Date('2022-10-15')
+		},
+		skills: getSkills('reactjs', 'js', 'html', 'css', 'nextjs'),
+		type: 'Design',
+		screenshots: [
+			{
+				label: 'screen 1',
+				src: '/Project/avantika/1.png'
+			}
+		],
+		video: [
+			{
+				label: 'video 1',
+				src: '/Project/avantika/1.webm',
+				thumbnail: '/Project/avantika/thum1.png'
+			},
+			{
+				label: 'video 2',
+				src: '/Project/avantika/2.webm',
+				thumbnail: '/Project/avantika/thum2.png'
+			}
+		]
+	},
+	{
+		slug: 'BubbleChart-in-D3',
+		color: '#cccccc',
+		description: [``, ``, ``, ``],
+
+		shortDescription: '',
+		links: [
+			// { to: 'https://github.com/RiadhAdrani/slick-portfolio-svelte', label: 'GitHub' },
+			{ to: 'https://abialidr.github.io/BubbleChart-in-D3-test-task/', label: 'Website' },
+			{ to: 'https://github.com/Abialidr/BubbleChart-in-D3-test-task', label: 'GitHub' }
+		],
+		logo: '/logos/no-img.svg',
+		name: 'BubbleChart-in-D3',
+		period: {
+			from: new Date('2022-10-01'),
+			to: new Date('2022-10-15')
+		},
+		skills: getSkills('js', 'html', 'css'),
+		type: 'Complicated Logic Bubbles',
+		screenshots: [
+			{
+				label: 'screen 1',
+				src: '/Project/bubble/1.png'
+			},
+			{
+				label: 'screen 2',
+				src: '/Project/bubble/2.png'
+			}
+		],
+		video: [
+			{
+				label: 'video 1',
+				src: '/Project/bubble/1.webm',
+				thumbnail: '/Project/bubble/thum1.png'
+			},
+			{
+				label: 'video 2',
+				src: '/Project/bubble/2.webm',
+				thumbnail: '/Project/bubble/thum2.png'
+			}
+		]
+	},
+	{
+		slug: 'Family-Tree-Creator',
+		color: '#cccccc',
+		description: [``, ``, ``, ``],
+
+		shortDescription: '',
+		links: [
+			// { to: 'https://github.com/RiadhAdrani/slick-portfolio-svelte', label: 'GitHub' },
+			{ to: 'https://abialidr.github.io/Family-Tree-creator-test-task/', label: 'Website' },
+			{ to: 'https://github.com/Abialidr/Family-Tree-creator-test-task', label: 'GitHub' }
+		],
+		logo: '/logos/no-img.svg',
+		name: 'Family-Tree-Creator',
+		period: {
+			from: new Date('2022-10-01'),
+			to: new Date('2022-10-15')
+		},
+		skills: getSkills(
+			'js',
+			'html',
+			'css',
+			'styled-components',
+			'reactjs',
+			'ts',
+			'web vitals',
+			'yup'
+		),
+		type: 'Complex Family Tree Creator',
+		screenshots: [
+			{
+				label: 'screen 1',
+				src: '/Project/familyTree/1.png'
+			},
+			{
+				label: 'screen 2',
+				src: '/Project/familyTree/2.png'
+			}
+		],
+		video: [
+			{
+				label: 'video 1',
+				src: '/Project/familyTree/1.webm',
+				thumbnail: '/Project/familyTree/thum1.png'
+			},
+			{
+				label: 'video 2',
+				src: '/Project/familyTree/2.webm',
+				thumbnail: '/Project/familyTree/thum2.png'
+			}
+		]
+	},
+	{
+		slug: 'JethiTech-Solutions',
+		color: '#cccccc',
+		description: [
+			`Embark on the design journey with JethiSolution – a captivating test task focused on crafting an engaging homepage. Dive into creativity as you integrate a stylish header that sets the tone for an immersive user experience. The challenge extends to incorporating a dynamic carousel, adding a touch of dynamism to the visual narrative. This design-based task invites you to showcase your flair for aesthetics and user-centric design, all while adhering to a keen sense of style and efficiency. Unleash your design prowess and create a homepage that not only catches the eye but also captivates the user from the moment they arrive.`
+		],
+
+		shortDescription:
+			'Embark on the design journey with JethiSolution – a captivating test task focused on crafting an engaging homepage. Dive into creativity as you integrate a stylish header that sets the tone for an immersive user experience. The challenge extends to incorporating a dynamic carousel, adding a touch of dynamism to the visual narrative. This design-based task invites you to showcase your flair for aesthetics and user-centric design, all while adhering to a keen sense of style and efficiency. Unleash your design prowess and create a homepage that not only catches the eye but also captivates the user from the moment they arrive.',
+		links: [
+			// { to: 'https://github.com/RiadhAdrani/slick-portfolio-svelte', label: 'GitHub' },
+			{ to: 'https://abialidr.github.io/JethiTech-Solutions-test-task/', label: 'Website' },
+			{ to: 'https://github.com/Abialidr/JethiTech-Solutions-test-task', label: 'GitHub' },
+			{
+				to: 'https://www.figma.com/file/pkoF5hO01DNXGrf5yqo5tE/TestTask-For-job-1?type=design&t=09NalaEgV7QQAAqV-6',
+				label: 'Reference'
+			}
+		],
+		logo: '/logos/no-img.svg',
+		name: 'JethiTech-Solutions',
+		period: {
+			from: new Date('2022-10-01'),
+			to: new Date('2022-10-15')
+		},
+		skills: getSkills(
+			'js',
+			'html',
+			'css',
+			'reactjs',
+			'mui',
+			'moment',
+			'slick carousel',
+			'react slick',
+			'styled-components',
+			'web vitals'
+		),
+		type: 'Design',
+		screenshots: [
+			{
+				label: 'screen 1',
+				src: '/Project/jethi/1.png'
+			},
+			{
+				label: 'screen 2',
+				src: '/Project/jethi/2.png'
+			},
+			{
+				label: 'screen 3',
+				src: '/Project/jethi/3.png'
+			},
+			{
+				label: 'screen 4',
+				src: '/Project/jethi/4.png'
+			},
+			{
+				label: 'screen 5',
+				src: '/Project/jethi/5.png'
+			},
+			{
+				label: 'screen 6',
+				src: '/Project/jethi/6.png'
+			}
+		],
+		video: [
+			{
+				label: 'video 1',
+				src: '/Project/jethi/1.webm',
+				thumbnail: '/Project/jethi/thum1.png'
+			},
+			{
+				label: 'video 2',
+				src: '/Project/jethi/2.webm',
+				thumbnail: '/Project/jethi/thum2.png'
+			}
+		]
+	},
+	{
+		slug: 'Panchatattva',
+		color: '#cccccc',
+		description: [
+			`
+		Welcome to the Panchatatva design challenge – a test task that merges creativity with precision in the health field. Your mission: replicate a meticulously crafted Figma design, ensuring a seamless translation to a web page. The challenge doesn't stop there; Panchatatva demands your expertise in handling numerous position:absolute cases, vital for maintaining the intricate design layout.`,
+			`Dive into the realm of health-centric aesthetics as you bring the Figma vision to life. Navigate through the intricacies of position:absolute with finesse, creating carousels that not only align with the design but enhance the overall user experience. This design-based task in the health sector beckons your artistic prowess and technical acumen – an opportunity to craft a digital space that mirrors precision, style, and the essence of well-being.`
+		],
+
+		shortDescription: `Welcome to the Panchatatva design challenge – a test task that merges creativity with precision in the health field. Your mission: replicate a meticulously crafted Figma design, ensuring a seamless translation to a web page. The challenge doesn't stop there; Panchatatva demands your expertise in handling numerous position:absolute cases, vital for maintaining the intricate design layout.`,
+		links: [
+			// { to: 'https://github.com/RiadhAdrani/slick-portfolio-svelte', label: 'GitHub' },
+			{ to: 'https://abialidr.github.io/panchatattva-test-task/', label: 'Website' },
+			{ to: 'https://github.com/Abialidr/panchatattva-test-task', label: 'GitHub' },
+			{
+				to: 'https://www.figma.com/file/2p9GWSjkFmBzhmQkRIYNW0/Panchatattva-(Copy)?type=design&t=09NalaEgV7QQAAqV-6',
+				label: 'Refernce'
+			}
+		],
+		logo: '/logos/no-img.svg',
+		name: 'Panchatattva',
+		period: {
+			from: new Date('2022-10-01'),
+			to: new Date('2022-10-15')
+		},
+		skills: getSkills('js', 'html', 'css', 'reactjs', 'nextjs', 'mui', 'react slick'),
+		type: 'Design',
+		screenshots: [
+			{
+				label: 'screen 1',
+				src: '/Project/panch/1.png'
+			},
+			{
+				label: 'screen 2',
+				src: '/Project/panch/2.png'
+			},
+			{
+				label: 'screen 3',
+				src: '/Project/panch/3.png'
+			},
+			{
+				label: 'screen 4',
+				src: '/Project/panch/4.png'
+			},
+			{
+				label: 'screen 5',
+				src: '/Project/panch/5.png'
+			},
+			{
+				label: 'screen 6',
+				src: '/Project/panch/6.png'
+			},
+			{
+				label: 'screen 7',
+				src: '/Project/panch/7.png'
+			},
+			{
+				label: 'screen 8',
+				src: '/Project/panch/8.png'
+			},
+			{
+				label: 'screen 9',
+				src: '/Project/panch/9.png'
+			}
+		],
+		video: [
+			{
+				label: 'video 1',
+				src: '/Project/panch/1.webm',
+				thumbnail: '/Project/panch/thum1.png'
+			},
+			{
+				label: 'video 2',
+				src: '/Project/panch/2.webm',
+				thumbnail: '/Project/panch/thum2.png'
+			}
+		]
+	},
+	{
+		slug: 'Water Tank',
+		color: '#cccccc',
+		description: [``, ``, ``, ``],
+
+		shortDescription: '',
+		links: [
+			// { to: 'https://github.com/RiadhAdrani/slick-portfolio-svelte', label: 'GitHub' },
+			{ to: 'https://abialidr.github.io/The-water-tank-problem-test-task/', label: 'Website' },
+			{ to: 'https://github.com/Abialidr/The-water-tank-problem-test-task', label: 'GitHub' }
+		],
+		logo: '/logos/no-img.svg',
+		name: 'Water Tank',
+		period: {
+			from: new Date('2022-10-01'),
+			to: new Date('2022-10-15')
+		},
+		skills: getSkills('js', 'html', 'css'),
+		type: 'Water Tank Problem',
+		screenshots: [
+			{
+				label: 'screen 1',
+				src: '/Project/water/1.png'
+			},
+			{
+				label: 'screen 2',
+				src: '/Project/water/2.png'
+			}
+		],
+		video: [
+			{
+				label: 'video 1',
+				src: '/Project/water/1.webm',
+				thumbnail: '/Project/water/thum1.png'
+			},
+			{
+				label: 'video 2',
+				src: '/Project/water/2.webm',
+				thumbnail: '/Project/water/thum2.png'
+			}
+		]
+	},
+	{
+		slug: 'Art MemoryGame',
+		color: '#cccccc',
+		description: [
+			`
+		Embark on a captivating journey of artistic exploration with our Art Memory Game—an engaging and visually stimulating learning task designed to enhance your memory skills through the world of art. Immerse yourself in a delightful game of cards adorned with masterpieces from renowned artists and iconic art movements. As you flip each card, challenge your memory to match pairs of paintings, sculptures, or artistic elements, creating a harmonious connection between the visual arts and cognitive development. Whether you're a seasoned art enthusiast or a novice, this game offers a unique opportunity to discover and appreciate the beauty of diverse artistic expressions while honing your memory prowess. Unleash your creativity and sharpen your mind as you play, making learning an enjoyable and aesthetically enriching experience.`
+		],
+
+		shortDescription: `
+		An engaging and visually stimulating learning task designed to enhance your memory skills through the world of art. Immerse yourself in a delightful game of cards adorned with masterpieces from renowned artists and iconic art movements. As you flip each card, challenge your memory to match pairs of paintings, sculptures, or artistic elements, creating a harmonious connection between the visual arts and cognitive development. Whether you're a seasoned art enthusiast or a novice, this game offers a unique opportunity to discover and appreciate the beauty of diverse artistic expressions while honing your memory prowess. Unleash your creativity and sharpen your mind as you play, making learning an enjoyable and aesthetically enriching experience.`,
+		links: [
+			// { to: 'https://github.com/RiadhAdrani/slick-portfolio-svelte', label: 'GitHub' },
+			{ to: 'https://abialidr.github.io/artMemoryGame-learning/', label: 'Website' },
+			{ to: 'https://github.com/Abialidr/artMemoryGame-learning', label: 'GitHub' }
+		],
+		logo: '/logos/no-img.svg',
+		name: 'Art MemoryGame',
+		period: {
+			from: new Date('2022-10-01'),
+			to: new Date('2022-10-15')
+		},
+		skills: getSkills('js', 'html', 'css'),
+		type: 'Memory Game',
+		screenshots: [
+			{
+				label: 'screen 1',
+				src: '/Project/memory/1.png'
+			},
+			{
+				label: 'screen 2',
+				src: '/Project/memory/2.png'
+			}
+		],
+		video: [
+			{
+				label: 'video 1',
+				src: '/Project/memory/1.webm',
+				thumbnail: '/Project/memory/thum1.png'
+			},
+			{
+				label: 'video 2',
+				src: '/Project/memory/2.webm',
+				thumbnail: '/Project/memory/thum2.png'
+			}
+		]
+	},
+	{
+		slug: 'calc',
+		color: '#cccccc',
+		description: [
+			`Calc is more than just a calculator; it's a design-forward learning companion that marries sleek aesthetics with powerful functionality. The user-friendly interface ensures a smooth experience, allowing users to navigate through various mathematical concepts effortlessly. Its modern design is not just visually appealing but also contributes to a distraction-free environment, fostering a focused learning atmosphere.`
+		],
+
+		shortDescription: `Introducing Calc, an elegantly designed calculator that seamlessly blends form and function. With its intuitive interface, it's the perfect tool for students and professionals alike, making complex calculations a breeze.`,
+		links: [
+			// { to: 'https://github.com/RiadhAdrani/slick-portfolio-svelte', label: 'GitHub' },
+			{ to: 'https://abialidr.github.io/calc-learn/', label: 'Website' },
+			{ to: 'https://github.com/Abialidr/calc-learn', label: 'GitHub' }
+		],
+		logo: '/logos/no-img.svg',
+		name: 'Calc',
+		period: {
+			from: new Date('2022-10-01'),
+			to: new Date('2022-10-15')
+		},
+		skills: getSkills('js', 'html', 'css', 'reactjs'),
+		type: 'Calculator',
+		screenshots: [
+			{
+				label: 'screen 1',
+				src: '/Project/calc/1.png'
+			},
+			{
+				label: 'screen 2',
+				src: '/Project/calc/2.png'
+			}
+		],
+		video: [
+			{
+				label: 'video 1',
+				src: '/Project/calc/1.webm',
+				thumbnail: '/Project/calc/thum1.png'
+			},
+			{
+				label: 'video 2',
+				src: '/Project/calc/2.webm',
+				thumbnail: '/Project/calc/thum2.png'
+			}
+		]
+	}
+];
+
+export const MY_PROJECTS: Array<Project> = [
 	{
 		slug: 'Neforia',
 		color: '#ca1481',
@@ -594,5 +1060,3 @@ const MY_PROJECTS: Array<Project> = [
 		]
 	}
 ];
-
-export default MY_PROJECTS;

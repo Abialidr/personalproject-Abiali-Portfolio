@@ -52,7 +52,7 @@ export interface Skill extends Omit<Item, 'shortDescription'> {
 export interface Project extends Item {
 	links: Array<Link>;
 	color: string;
-	period: {
+	period?: {
 		from: Date;
 		to?: Date;
 	};

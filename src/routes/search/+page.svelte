@@ -4,7 +4,7 @@
 	import { SEARCH } from '$lib/params';
 	import SearchPage from '$lib/components/SearchPage.svelte';
 	import MY_EXPERIENCES from '$lib/experiences.params';
-	import MY_PROJECTS from '$lib/projects.params';
+	import { MY_PROJECTS, TEST_PROJECTS } from '$lib/projects.params';
 	import { PRO_SKILLS } from '$lib/skills.params';
 	import Chip from '$lib/components/Chip/Chip.svelte';
 	import UIcon from '$lib/components/Icon/UIcon.svelte';
@@ -43,7 +43,16 @@
 				})
 			)
 		);
-
+		result.push(
+			...TEST_PROJECTS.filter((item) => query && item.name.toLowerCase().includes(query)).map<Item>(
+				(data) => ({
+					data,
+					icon: 'i-carbon-cube',
+					name: data.name,
+					to: `projects/${data.slug}`
+				})
+			)
+		);
 		result.push(
 			...PRO_SKILLS.filter((item) => query && item.name.toLowerCase().includes(query)).map<Item>(
 				(data) => ({
