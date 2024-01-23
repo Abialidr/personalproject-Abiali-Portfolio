@@ -1058,5 +1058,448 @@ export const MY_PROJECTS: Array<Project> = [
 				thumbnail: '/Project/wedcellVendors/11.png'
 			}
 		]
+	},
+	{
+		slug: 'Wedcell-Backend',
+		color: '#b6044f',
+		description: [
+			`The Wedcell website, developed from scratch, stands as a testament to my proficiency in backend development using Express.js and Node.js. Employing a robust tech stack, including Axios, Bcrypt, JWT, CORS, Multer, S3, WhatsApp API, Delhivery, Razorpay, MongoDB, Mongoose, and Socket.io, I ensured the website's seamless functionality and enhanced user experience.`,
+			`Wedcell, the platform for which I crafted the backend, was designed to be a comprehensive solution for users seeking the best vendors, venues, products, and services related to weddings. The project aimed to streamline the process of wedding planning, offering a one-stop-shop for users to discover and engage with various wedding-related services and products.`,
+			`As a dedicated backend developer at Wedcell Pvt Ltd, I spearheaded the creation of diverse APIs aligned with user workflows. My responsibilities encompassed the entire backend ecosystem, including the development of middleware, controllers, routes, and models to establish RESTful APIs. Additionally, I optimized these APIs for optimal performance. The integration of S3 for image storage on AWS buckets and the implementation of Socket.io for real-time communication were key aspects of my contributions, ensuring a seamless and interactive user experience.`,
+			`My experience with the Wedcell project was exceptionally positive. Clear and precise communication from the client facilitated the timely completion of tasks, contributing to a smooth development process.`
+		],
+
+		shortDescription: `Crafted Wedcell backend with Express.js & Node.js, utilizing a robust tech stack. Streamlined wedding planning, creating APIs, optimizing performance, and ensuring seamless user experiences. Positive client communication led to a smooth development process.`,
+		links: [
+			// { to: 'https://github.com/RiadhAdrani/slick-portfolio-svelte', label: 'GitHub' },
+		],
+		logo: '/Project/wedcell/logo.png',
+		name: 'Wedcell-Backend',
+		period: {
+			from: new Date('2023-05-01'),
+			to: new Date('2023-10-31')
+		},
+		skills: getSkills(
+			'expressJs',
+			'nodejs',
+			'axios',
+			'jwt',
+			'cors',
+			'multer',
+			's3',
+			'razorpay',
+			'monodb',
+			'socket.io'
+		),
+		type: 'Backend | Scatch',
+		screenshots: [
+			{
+				label: 'screen 1',
+				src: '/Project/wback/1.jpeg'
+			},
+			{
+				label: 'screen 2',
+				src: '/Project/wback/2.jpeg'
+			},
+			{
+				label: 'screen 3',
+				src: '/Project/wback/3.jpeg'
+			},
+			{
+				label: 'screen 4',
+				src: '/Project/wback/4.jpeg'
+			},
+			{
+				label: 'screen 5',
+				src: '/Project/wback/5.jpeg'
+			},
+			{
+				label: 'screen 6',
+				src: '/Project/wback/6.jpeg'
+			},
+			{
+				label: 'screen 7',
+				src: '/Project/wback/7.jpeg'
+			},
+			{
+				label: 'screen 8',
+				src: '/Project/wback/8.jpeg'
+			},
+			{
+				label: 'screen 9',
+				src: '/Project/wback/9.jpeg'
+			},
+			{
+				label: 'screen 10',
+				src: '/Project/wback/10.jpeg'
+			}
+		],
+		video: [
+			{
+				label: 'video 1',
+				src: '/Project/wback/1.webm',
+				thumbnail: '/Project/wback/thum1.png'
+			},
+			{
+				label: 'video 2',
+				src: '/Project/wback/2.webm',
+				thumbnail: '/Project/wback/thum2.png'
+			}
+		]
+	},
+	{
+		slug: 'ZanaduHealth',
+		color: '#25d266',
+		description: [
+			`Engaged in an ongoing project, I played a key role in the frontend development using Next.js with TypeScript, RTK Query, Agora, Sass, and Chart.js for the ZanaduHealth website at Avantika Pvt. Ltd.`,
+			`ZanaduHealth, a frontend initiative, aimed to connect users with health coaches. The platform featured a dedicated section for coaches, providing video session options to enhance user engagement.`,
+			`As a frontend developer at Avantika Pvt. Ltd., my focus was on crafting an impeccable frontend design. I delved into researching and implementing video session integration using Agora, ensuring a seamless experience. My responsibility extended to creating a flexible design that met the client's expectations.`,
+			`My involvement with ZanaduHealth was marked by a highly positive experience. Clear communication from the client streamlined task completion, fostering a smooth development process. This project allowed me to refine my skills, navigate intricate functionalities, and collaborate effectively with the client, translating their vision into a functional and aesthetically pleasing platform.`
+		],
+
+		shortDescription: `Contributed to ZanaduHealth frontend at Avantika Pvt. Ltd. with Next.js, TypeScript, and Agora. Enhanced user experience, integrating video sessions seamlessly. Positive collaboration with the client ensured successful project delivery.`,
+		links: [
+			{ to: 'https://app.zanaduhealth.com/', label: 'Website' },
+			{
+				to: 'https://www.figma.com/file/QcXAfudMPZlQaW9LZ8O0i7/Zanadu-ECA-Design-(Copy)?type=design&t=1c3ZFpwJl0RxHf2l-6',
+				label: 'Reference'
+			}
+		],
+		logo: '/Project/zanadu/logo.png',
+		name: 'ZanaduHealth',
+		period: {
+			from: new Date('2023-11-01'),
+			to: new Date('2023-12-31')
+		},
+		skills: getSkills(
+			'reactjs',
+			'ts',
+			'nextjs',
+			'redux',
+			'agora',
+			'web vitals',
+			'sass',
+			'next-redux-wrapper',
+			'react-toastify',
+			'chart.js'
+		),
+		type: 'Health Website | On Going',
+		screenshots: [
+			{
+				label: 'screen 1',
+				src: '/Project/zanadu/1.png'
+			},
+			{
+				label: 'screen 2',
+				src: '/Project/zanadu/2.png'
+			},
+			{
+				label: 'screen 3',
+				src: '/Project/zanadu/3.png'
+			},
+			{
+				label: 'screen 4',
+				src: '/Project/zanadu/4.png'
+			},
+			{
+				label: 'screen 5',
+				src: '/Project/zanadu/5.png'
+			},
+			{
+				label: 'screen 6',
+				src: '/Project/zanadu/6.png'
+			},
+			{
+				label: 'screen 7',
+				src: '/Project/zanadu/7.png'
+			},
+			{
+				label: 'screen 8',
+				src: '/Project/zanadu/8.png'
+			},
+			{
+				label: 'screen 9',
+				src: '/Project/zanadu/9.png'
+			},
+			{
+				label: 'screen 10',
+				src: '/Project/zanadu/10.png'
+			}
+		],
+		video: [
+			{
+				label: 'video 1',
+				src: '/Project/zanadu/1.webm',
+				thumbnail: '/Project/zanadu/thum1.png'
+			},
+			{
+				label: 'video 2',
+				src: '/Project/zanadu/2.webm',
+				thumbnail: '/Project/zanadu/thum2.png'
+			}
+		]
+	},
+	{
+		slug: 'Zanadu-Backend',
+		color: '#25d266',
+		description: [
+			`This project, initiated from the ground up, involved the development of the backend for the Zandu Health website. Leveraging the power of Express.js and Node.js, I implemented a robust and scalable backend infrastructure. The technology stack included essential tools such as Agora for video communication, Axios for HTTP requests, Bcrypt for security, JWT for authentication, CORS for cross-origin resource sharing, Multer for handling file uploads, Winston for logging, and S3 for seamless integration with AWS for image storage.`,
+			`Zandu Health, the website for which this backend was crafted, had a clear objective: to provide enterprises with a platform to monitor and enhance the well-being of their employees. The project aimed to facilitate this by offering video call services connecting employees with yoga gurus. The overarching goal was to enable enterprises to invest in the health and fitness of their workforce, creating a healthier and more productive workplace.`,
+			`As a backend developer at Avantica Innovations, my primary responsibility was to design and implement various APIs in accordance with the user flow. This involved creating middleware, controllers, routes, and models to establish RESTful APIs. Additionally, I focused on optimizing these APIs for superior performance. An integral part of my role included working with AWS S3 to securely store and manage images in the cloud.`,
+			`My experience working on the Zandu Health project was highly rewarding. Collaborating within a dynamic team of four, alongside skilled individuals like my team leader Parth and Neeraj, proved to be invaluable. Their expertise in both backend and frontend development greatly contributed to overcoming challenging tasks. The collaborative environment fostered continuous learning, allowing me to expand my skill set and deliver high-quality results.`
+		],
+
+		shortDescription: `Led backend development for Zandu Health using Express.js/Node.js. Integrated Agora, Axios, Bcrypt, JWT, CORS, Multer, Winston, and S3 for seamless AWS image storage. Empowered enterprises to prioritize employee well-being via video calls with yoga gurus. Optimized RESTful APIs for peak performance. Enriching experience in a collaborative team at Avantica Innovations, enhancing skills alongside Parth and Neeraj.`,
+		links: [
+			// { to: 'https://github.com/RiadhAdrani/slick-portfolio-svelte', label: 'GitHub' },
+		],
+		logo: '/Project/zanadu/logo.png',
+		name: 'Zanadu-Backend',
+		period: {
+			from: new Date('2023-11-01'),
+			to: new Date('2023-12-31')
+		},
+		skills: getSkills(
+			'expressJs',
+			'nodejs',
+			'axios',
+			'jwt',
+			'cors',
+			'multer',
+			's3',
+			'razorpay',
+			'monodb',
+			'socket.io'
+		),
+		type: 'Backend | On Going',
+		screenshots: [
+			{
+				label: 'screen 1',
+				src: '/Project/zbackend/1.jpeg'
+			},
+			{
+				label: 'screen 2',
+				src: '/Project/zbackend/2.jpeg'
+			},
+			{
+				label: 'screen 3',
+				src: '/Project/zbackend/3.jpeg'
+			},
+			{
+				label: 'screen 4',
+				src: '/Project/zbackend/4.jpeg'
+			},
+			{
+				label: 'screen 5',
+				src: '/Project/zbackend/5.jpeg'
+			},
+			{
+				label: 'screen 6',
+				src: '/Project/zbackend/6.jpeg'
+			},
+			{
+				label: 'screen 7',
+				src: '/Project/zbackend/7.jpeg'
+			},
+			{
+				label: 'screen 8',
+				src: '/Project/zbackend/8.jpeg'
+			},
+			{
+				label: 'screen 9',
+				src: '/Project/zbackend/9.jpeg'
+			},
+			{
+				label: 'screen 10',
+				src: '/Project/zbackend/10.jpeg'
+			},
+			{
+				label: 'screen 11',
+				src: '/Project/zbackend/11.jpeg'
+			}
+		],
+		video: [
+			{
+				label: 'video 1',
+				src: '/Project/zbackend/1.webm',
+				thumbnail: '/Project/zbackend/thum1.png'
+			},
+			{
+				label: 'video 2',
+				src: '/Project/zbackend/2.webm',
+				thumbnail: '/Project/zbackend/thum2.png'
+			}
+		]
+	},
+	{
+		slug: 'WedCell-Institute',
+		color: '#bd2864',
+		description: [
+			`Built from scratch, the Wedcell-Institute website's frontend featured technologies like React.js, Next.js, Sass, Slick Carousel, HTML, CSS, and JS for a comprehensive and engaging user experience`,
+			`Focused on the frontend, the project served as an informative website for Wedcell Institute, providing a platform to showcase relevant information and offerings.`,
+			`As a dedicated Frontend Developer, my primary objective was to create a visually striking and flawless design for the Wedcell-Institute website, ensuring it met the client's expectations.`,
+			`My journey with the Wedcell-Institute project was exceptionally positive. Clear communication from the client facilitated efficient task completion, fostering a smooth development process. Working on this project allowed me to refine my skills, address complex functionalities, and collaborate effectively with the client to bring their vision for the platform to life.`
+		],
+
+		shortDescription: `Crafted Wedcell-Institute's frontend with precision using React, Next.js, Sass, and more. Positive collaboration with the client ensured a flawless, informative website, showcasing expertise in design and development.`,
+		links: [
+			{ to: '', label: 'Website' },
+			{
+				to: 'https://www.figma.com/file/jIq9k2W9PkgqfkxjzgZW3i/Wedcell-final?type=design&t=1c3ZFpwJl0RxHf2l-6',
+				label: 'Reference'
+			}
+		],
+		logo: '/Project/institute/logo.png',
+		name: 'WedCell-Institute',
+		period: {
+			from: new Date('2023-01-01'),
+			to: new Date('2023-01-10')
+		},
+		skills: getSkills(
+			'reactjs',
+			'nextjs',
+			'sass',
+			'slick carousel',
+			'react slick',
+			'html',
+			'css',
+			'js'
+		),
+		type: 'Info Website | Scatch',
+		screenshots: [
+			{
+				label: 'screen 1',
+				src: '/Project/institute/1.png'
+			},
+			{
+				label: 'screen 2',
+				src: '/Project/institute/2.png'
+			},
+			{
+				label: 'screen 3',
+				src: '/Project/institute/3.png'
+			},
+			{
+				label: 'screen 4',
+				src: '/Project/institute/4.png'
+			},
+			{
+				label: 'screen 5',
+				src: '/Project/institute/5.png'
+			},
+			{
+				label: 'screen 6',
+				src: '/Project/institute/6.png'
+			},
+			{
+				label: 'screen 7',
+				src: '/Project/institute/7.png'
+			},
+			{
+				label: 'screen 8',
+				src: '/Project/institute/8.png'
+			},
+			{
+				label: 'screen 9',
+				src: '/Project/institute/9.png'
+			},
+			{
+				label: 'screen 10',
+				src: '/Project/institute/10.png'
+			}
+		],
+		video: [
+			{
+				label: 'video 1',
+				src: '/Project/institute/1.webm',
+				thumbnail: '/Project/institute/thum1.png'
+			},
+			{
+				label: 'video 2',
+				src: '/Project/institute/2.webm',
+				thumbnail: '/Project/institute/thum2.png'
+			}
+		]
+	},
+	{
+		slug: 'Dharamveer Foundation',
+		color: '#337ab7',
+		description: [
+			`Initiated from scratch, the Dharamveer-Foundation website's frontend was meticulously crafted using React.js, Next.js, Sass, HTML, CSS, and JavaScript, ensuring a robust and engaging user interface.`,
+			`As a frontend website, it served the dual purpose of being an informative platform and a donation collection site for Dharamveer Foundation, embodying the mission to inform and inspire donations.`,
+			`In my role as a Frontend Developer, I focused on creating a visually stunning design for Dharamveer-Foundation. Additionally, I integrated payment collection APIs, contributing to a seamless user experience in supporting the foundation's cause.`,
+			`My experience with the Dharamveer-Foundation project was remarkably positive. Clear communication from the client facilitated efficient task completion, ensuring a smooth development process. Working on this project allowed me to refine my skills, address complex functionalities, and collaborate effectively with the client to bring their vision for the platform to fruition.`
+		],
+
+		shortDescription: `Crafted Dharamveer-Foundation's frontend with React, Next.js, Sass, HTML, CSS, and JS. Integrated donation APIs, ensuring a seamless, visually stunning platform. Positive collaboration and precise client communication facilitated a smooth development process.`,
+		links: [
+			{ to: '', label: 'Website' },
+			{
+				to: 'https://www.figma.com/file/HSsAwbPB7jpXXxT6po5GXk/Dharmaveer-Foundation-(Copy)?type=design&t=1c3ZFpwJl0RxHf2l-6',
+				label: 'Reference'
+			}
+		],
+		logo: '/Project/dharamveer/logo.png',
+		name: 'Dharamveer Foundation',
+		period: {
+			from: new Date('2023-01-11'),
+			to: new Date('2023-01-22')
+		},
+		skills: getSkills('reactjs', 'nextjs', 'sass', 'html', 'css', 'js'),
+		type: 'Info Website | Scatch',
+		screenshots: [
+			{
+				label: 'screen 1',
+				src: '/Project/dharamveer/1.png'
+			},
+			{
+				label: 'screen 2',
+				src: '/Project/dharamveer/2.png'
+			},
+			{
+				label: 'screen 3',
+				src: '/Project/dharamveer/3.png'
+			},
+			{
+				label: 'screen 4',
+				src: '/Project/dharamveer/4.png'
+			},
+			{
+				label: 'screen 5',
+				src: '/Project/dharamveer/5.png'
+			},
+			{
+				label: 'screen 6',
+				src: '/Project/dharamveer/6.png'
+			},
+			{
+				label: 'screen 7',
+				src: '/Project/dharamveer/7.png'
+			},
+			{
+				label: 'screen 8',
+				src: '/Project/dharamveer/8.png'
+			},
+			{
+				label: 'screen 9',
+				src: '/Project/dharamveer/9.png'
+			},
+			{
+				label: 'screen 10',
+				src: '/Project/dharamveer/10.png'
+			}
+		],
+		video: [
+			{
+				label: 'video 1',
+				src: '/Project/dharamveer/1.webm',
+				thumbnail: '/Project/dharamveer/thum1.png'
+			},
+			{
+				label: 'video 2',
+				src: '/Project/dharamveer/2.webm',
+				thumbnail: '/Project/dharamveer/thum2.png'
+			}
+		]
 	}
 ];

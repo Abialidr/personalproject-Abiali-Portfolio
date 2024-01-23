@@ -14,7 +14,7 @@
 	import CardDivider from '$lib/components/Card/CardDivider.svelte';
 	import { getTimeDiff } from '$lib/utils';
 
-	export let data: { experience?: Experience };
+	export let data: { experience?: any };
 
 	const { title } = EXPERIENCES;
 
@@ -55,8 +55,9 @@
 							</Chip>
 						{/each}
 					</div>
-					<div class="row-center flex-wrap m-b-2">
-						{#each data.experience.skills as item}
+					<!-- <div class="row-center flex-wrap m-b-2">
+						{console.log("🚀 ~ data.experience:", data.experience)}
+						{#each data.experience.links as item}
 							<Chip
 								classes="inline-flex flex-row items-center justify-center"
 								href={`${base}/skills/${item.slug}`}
@@ -71,7 +72,7 @@
 								<span class="text-[0.9em]">{item.name}</span>
 							</Chip>
 						{/each}
-					</div>
+					</div> -->
 				</div>
 			</Banner>
 			<div class="pt-3 pb-1 overflow-x-hidden w-full">
