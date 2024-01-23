@@ -50,27 +50,37 @@
 				<form>
 					<div class="row g-3">
 						<div class="col-md-6">
-							<label for="name" class="p-b-15px">Your Name</label>
+							<label for="name" class="p-b-0px">Your Name</label>
 							<!-- <div class="form-floating"> -->
-							<input type="text" class="form-control" id="name" />
+							<input style="margin-bottom: 10px;" type="text" class="form-control" id="name" />
 							<!-- </div> -->
 						</div>
 						<div class="col-md-6">
-							<label for="email" class="p-b-15px">Your Email</label>
+							<label for="email" class="p-b-0px">Your Email</label>
 							<!-- <div class="form-floating"> -->
-							<input type="email" class="form-control" id="email" />
+							<label for="subject" style="margin-bottom: 10px;" class="p-b-0px">Subject</label>
+							<input style="margin-bottom: 10px;" type="email" class="form-control" id="email" />
 							<!-- </div> -->
 						</div>
 						<div class="col-12">
 							<!-- <div class="form-floating"> -->
-							<label for="subject" class="p-b-15px">Subject</label>
-							<input type="text" class="form-control" id="subject" />
+							<label for="subject" class="p-b-0px">Subject</label>
+							<input
+								style="margin-bottom: 10px;"
+								type="text"
+								class="form-control p-b-10px"
+								id="subject"
+							/>
 							<!-- </div> -->
 						</div>
 						<div class="col-12">
 							<!-- <div class="form-floating"> -->
-							<label for="message" class="p-b-15px">Message</label>
-							<textarea class="form-control" id="message" style="height: 100px" />
+							<label for="message" class="p-b-0px">Message</label>
+							<textarea
+								class="form-control"
+								id="message"
+								style="height: 100px; margin-bottom: 20px;"
+							/>
 							<!-- </div> -->
 						</div>
 						<div class="col-12">

@@ -39,7 +39,9 @@
 		id={`section0`}
 	>
 		<div class="md:flex-1 gap-10px">
-			<h5>Hi, my name is</h5>
+			<h5 class="text-[var(--tertiary-text)]  text-center md:text-left text-[1em] font-extralight">
+				Hi, my name is
+			</h5>
 			<MainTitle classes="md:text-left ">{name} {lastName},</MainTitle>
 			<h4 class="text-[var(--tertiary-text)]  text-center md:text-left text-[1em] font-extralight">
 				{description}
