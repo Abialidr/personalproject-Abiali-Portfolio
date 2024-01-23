@@ -90,9 +90,12 @@ export const TEST_PROJECTS: Array<Project> = [
 	{
 		slug: 'BubbleChart-in-D3',
 		color: '#cccccc',
-		description: [``, ``, ``, ``],
+		description: [
+			`Explore the fascinating world of languages with our interactive learning tool—a responsive bubble chart created using HTML, CSS, and D3. This engaging chart displays data on language distribution among 220 individuals, represented by dynamically moving bubbles. Hover over any bubble to see it inflate for enhanced visibility, and take control by dragging and rearranging bubbles. Watch as bubbles interact, pushing each other when they touch, offering a unique and visually immersive way to grasp language demographics`
+		],
 
-		shortDescription: '',
+		shortDescription:
+			'Explore the fascinating world of languages with our interactive learning tool—a responsive bubble chart created using HTML, CSS, and D3. This engaging chart displays data on language distribution among 220 individuals, represented by dynamically moving bubbles. Hover over any bubble to see it inflate for enhanced visibility, and take control by dragging and rearranging bubbles. Watch as bubbles interact, pushing each other when they touch, offering a unique and visually immersive way to grasp language demographics',
 		links: [
 			// { to: 'https://github.com/RiadhAdrani/slick-portfolio-svelte', label: 'GitHub' },
 			{ to: 'https://abialidr.github.io/BubbleChart-in-D3-test-task/', label: 'Website' },
@@ -132,9 +135,15 @@ export const TEST_PROJECTS: Array<Project> = [
 	{
 		slug: 'Family-Tree-Creator',
 		color: '#cccccc',
-		description: [``, ``, ``, ``],
+		description: [
+			`Successfully conquering the intricate family tree problem, I navigated a complex array of objects, each representing a family member with detailed attributes such as ID, name, gender, children, and parents. The challenge extended beyond conventional family structures—requiring me to identify legitimate parent-child relationships and ensure gender accuracy within parent pairs.`,
+			`In this task, a member's children were defined by an array of IDs, which could include both legitimate and bogus IDs. My solution meticulously sifted through the complexities, validating parent-child connections and disallowing illegitimate family structures. Moreover, I handled the nuanced scenario where two parents of the same gender would be flagged as bogus, maintaining the integrity of the family tree.`,
+			`The true challenge emerged in the dynamic nature of the array, capable of accommodating numerous family members with distinct family structures. My algorithm efficiently identified and separated these families accurately, demonstrating my proficiency in handling intricate problems.`,
+			`This successful solution serves as a testament to my analytical prowess and coding acumen. By showcasing this family tree problem in my portfolio, I highlight my ability to tackle complex tasks within defined timeframes and convey my readiness to handle similar challenges with ease. Explore the intricacies of family tree problem-solving in my portfolio, a testament to my capabilities in algorithmic thinking and coding proficiency.`
+		],
 
-		shortDescription: '',
+		shortDescription:
+			'Mastered the family tree problem—a complex array of objects, validating parent-child connections, ensuring gender accuracy, and identifying and separating diverse families accurately. My solution showcases efficient problem-solving and readiness for intricate challenges. ',
 		links: [
 			// { to: 'https://github.com/RiadhAdrani/slick-portfolio-svelte', label: 'GitHub' },
 			{ to: 'https://abialidr.github.io/Family-Tree-creator-test-task/', label: 'Website' },
@@ -337,9 +346,13 @@ export const TEST_PROJECTS: Array<Project> = [
 	{
 		slug: 'Water Tank',
 		color: '#cccccc',
-		description: [``, ``, ``, ``],
+		description: [
+			`
+Embark on a coding journey through the water tank problem—an intriguing task that showcases my problem-solving skills. Picture a row of blocks where each number signifies its height. The challenge? Calculate the water trapped between these blocks. I successfully navigated through this puzzle, considering nuances like zero-height blocks and varying adjacent heights. Check out my solution to witness how I skillfully tackled this problem, demonstrating my ability to handle complex coding challenges. This accomplishment reflects my analytical thinking and coding proficiency. Explore the adventure of problem-solving with my successful water tank problem solution.`
+		],
 
-		shortDescription: '',
+		shortDescription:
+			'Embark on a coding journey through the water tank problem—an intriguing task that showcases my problem-solving skills. Picture a row of blocks where each number signifies its height. The challenge? Calculate the water trapped between these blocks. I successfully navigated through this puzzle, considering nuances like zero-height blocks and varying adjacent heights. Check out my solution to witness how I skillfully tackled this problem, demonstrating my ability to handle complex coding challenges. This accomplishment reflects my analytical thinking and coding proficiency. Explore the adventure of problem-solving with my successful water tank problem solution.',
 		links: [
 			// { to: 'https://github.com/RiadhAdrani/slick-portfolio-svelte', label: 'GitHub' },
 			{ to: 'https://abialidr.github.io/The-water-tank-problem-test-task/', label: 'Website' },
@@ -397,7 +410,7 @@ export const TEST_PROJECTS: Array<Project> = [
 			from: new Date('2022-10-01'),
 			to: new Date('2022-10-15')
 		},
-		skills: getSkills('js', 'html', 'css'),
+		skills: getSkills('js', 'html', 'css', 'reactjs'),
 		type: 'Memory Game',
 		screenshots: [
 			{
