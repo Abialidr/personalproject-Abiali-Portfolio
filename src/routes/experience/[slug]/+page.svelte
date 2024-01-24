@@ -78,9 +78,37 @@
 			<div class="pt-3 pb-1 overflow-x-hidden w-full">
 				<div class="px-10px m-y-5">
 					{#if data.experience.description}
-						<Markdown
+						{#each data.experience.description as item}
+							{#if item.type === 'title'}
+							
+								<h5
+									class="text-[var(--tertiary-text)]  text-center md:text-left text-[1.5em] font-extralight"
+								>
+									{item.content}
+								</h5>
+							{/if}
+							{#if item.type === 'para'}
+								<h5
+									class="text-[var(--tertiary-text)]  text-center md:text-left text-[1.2em] font-extralight"
+								>
+									{item.content}
+								</h5>
+							{/if}
+							{#if item.type === 'list'}
+								<ul>
+									{#each item.content as listItem}
+										<li
+											class="text-[var(--tertiary-text)]  text-center md:text-left text-[1em] font-extralight"
+										>
+											{listItem}
+										</li>
+									{/each}
+								</ul>
+							{/if}
+						{/each}
+						<!-- <Markdown
 							content={data.experience.description ?? 'This place is yet to be filled...'}
-						/>
+						/> -->
 					{:else}
 						<div class="p-5 col-center gap-3 m-y-auto text-[var(--border)]">
 							<UIcon icon="i-carbon-text-font" classes="text-3.5em" />
