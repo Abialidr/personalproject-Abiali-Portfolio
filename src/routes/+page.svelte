@@ -97,7 +97,7 @@
 		</div>
 	</div>
 
-	<div
+	<!-- <div
 		class="md:flex-row md:slef-stretch justify-center lg:justify-between items-center p-y-0px p-x-10px slides"
 		style="
 		display: flex;
@@ -107,7 +107,6 @@
 		"
 		id={`section2`}
 	>
-		<!-- <div class="flex-1 col justify-between gap-5 px-2 sm:px-4 md:px-6 py-4 sm:py-8 md:py-12 major_div"> -->
 		<MainTitle>Testimonial</MainTitle>
 		<div class="carousel">
 			<div class="carousel_item" style={`transform: translateX(${-currentSlide * 100}%)`}>
@@ -177,8 +176,7 @@
 			<button on:click={prevSlide} class="arrow prev">&#10094;</button>
 			<button on:click={nextSlide} class="arrow next">&#10095;</button>
 		</div>
-		<!-- </div> -->
-	</div>
+	</div> -->
 
 	<div
 		class="col self-center md:flex-row md:slef-stretch justify-center lg:justify-between items-center p-y-0px p-x-10px slides"
