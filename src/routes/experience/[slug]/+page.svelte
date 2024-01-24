@@ -80,16 +80,22 @@
 					{#if data.experience.description}
 						{#each data.experience.description as item}
 							{#if item.type === 'title'}
-							
 								<h5
 									class="text-[var(--tertiary-text)]  text-center md:text-left text-[1.5em] font-extralight"
 								>
 									{item.content}
 								</h5>
 							{/if}
+							{#if item.type === 'title2'}
+								<h5
+									class="text-[var(--tertiary-text)]  text-center md:text-left text-[1.3em] font-extralight"
+								>
+									{item.content}
+								</h5>
+							{/if}
 							{#if item.type === 'para'}
 								<h5
-									class="text-[var(--tertiary-text)]  text-center md:text-left text-[1.2em] font-extralight"
+									class="text-[var(--tertiary-text)]  text-center md:text-left text-[1.1em] font-extralight"
 								>
 									{item.content}
 								</h5>
@@ -98,7 +104,7 @@
 								<ul>
 									{#each item.content as listItem}
 										<li
-											class="text-[var(--tertiary-text)]  text-center md:text-left text-[1em] font-extralight"
+											class="text-[var(--tertiary-text)]  text-center md:text-left text-[0.9em] font-extralight"
 										>
 											{listItem}
 										</li>
