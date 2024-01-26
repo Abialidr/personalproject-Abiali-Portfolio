@@ -196,7 +196,7 @@ const MY_EXPERIENCES: Array<Experience> = [
 		contract: ContractType.FullTime,
 		type: 'On-Site',
 		location: 'Surat',
-		period: { from: new Date('2020-08-01'), to: new Date('2022-07-31') },
+		period: { from: new Date('2020-07-01'), to: new Date('2022-07-31') },
 		name: 'Intern and Junior Developer',
 		color: '#ffffff',
 		links: [],

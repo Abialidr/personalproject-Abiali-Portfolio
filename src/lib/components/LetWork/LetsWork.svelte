@@ -2,7 +2,28 @@
 	import Icon from '../Icon/Icon.svelte';
 	import { HOME, getPlatfromIcon, isEmail } from '$lib/params';
 	import MainTitle from '../MainTitle/MainTitle.svelte';
+	import { add_message } from '../../../Firestore/message.controller';
 	const { links } = HOME;
+	let formData = {
+		name: '',
+		email: '',
+		subject: '',
+		message: ''
+	};
+	const handleSubmit = async () => {
+		const res = await add_message(formData);
+		if (res.success) {
+			formData = {
+				name: '',
+				email: '',
+				subject: '',
+				message: ''
+			};
+			return alert('Message submitted successfully');
+		} else {
+			return alert('Something went wrong');
+		}
+	};
 </script>
 
 <div class="container-xxl pb-5" id="contact">
@@ -47,19 +68,32 @@
 				</div>
 			</div>
 			<div class="col-lg-7 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
-				<form>
+				<form on:submit|preventDefault={handleSubmit}>
 					<div class="row g-3">
 						<div class="col-md-6">
 							<label for="name" class="p-b-0px">Your Name</label>
 							<!-- <div class="form-floating"> -->
-							<input style="margin-bottom: 10px;" type="text" class="form-control" id="name" />
+							<input
+								style="margin-bottom: 10px;"
+								type="text"
+								class="form-control"
+								id="name"
+								bind:value={formData.name}
+								required
+							/>
 							<!-- </div> -->
 						</div>
 						<div class="col-md-6">
 							<label for="email" class="p-b-0px">Your Email</label>
 							<!-- <div class="form-floating"> -->
-							<label for="subject" style="margin-bottom: 10px;" class="p-b-0px">Subject</label>
-							<input style="margin-bottom: 10px;" type="email" class="form-control" id="email" />
+							<input
+								style="margin-bottom: 10px;"
+								type="email"
+								class="form-control"
+								id="email"
+								bind:value={formData.email}
+								required
+							/>
 							<!-- </div> -->
 						</div>
 						<div class="col-12">
@@ -70,6 +104,8 @@
 								type="text"
 								class="form-control p-b-10px"
 								id="subject"
+								bind:value={formData.subject}
+								required
 							/>
 							<!-- </div> -->
 						</div>
@@ -80,6 +116,8 @@
 								class="form-control"
 								id="message"
 								style="height: 100px; margin-bottom: 20px;"
+								bind:value={formData.message}
+								required
 							/>
 							<!-- </div> -->
 						</div>
