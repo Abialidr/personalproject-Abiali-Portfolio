@@ -1016,7 +1016,7 @@ export const MY_PROJECTS: Array<Project> = [
 			'lottie-web',
 			'chart.js'
 		),
-		type: 'vendor Management | Scatch',
+		type: 'vendor Management | Scratch',
 		screenshots: [
 			{
 				label: 'screen 1',
@@ -1104,7 +1104,7 @@ export const MY_PROJECTS: Array<Project> = [
 			'monodb',
 			'socket.io'
 		),
-		type: 'Backend | Scatch',
+		type: 'Backend | Scratch',
 		screenshots: [
 			{
 				label: 'screen 1',
@@ -1356,7 +1356,7 @@ export const MY_PROJECTS: Array<Project> = [
 
 		shortDescription: `Crafted Wedcell-Institute's frontend with precision using React, Next.js, Sass, and more. Positive collaboration with the client ensured a flawless, informative website, showcasing expertise in design and development.`,
 		links: [
-			{ to: '', label: 'Website' },
+			{ to: 'https://www.wedcellinstitute.com/', label: 'Website' },
 			{
 				to: 'https://www.figma.com/file/jIq9k2W9PkgqfkxjzgZW3i/Wedcell-final?type=design&t=1c3ZFpwJl0RxHf2l-6',
 				label: 'Reference'
@@ -1378,7 +1378,7 @@ export const MY_PROJECTS: Array<Project> = [
 			'css',
 			'js'
 		),
-		type: 'Info Website | Scatch',
+		type: 'Info Website | Scratch',
 		screenshots: [
 			{
 				label: 'screen 1',
@@ -1446,7 +1446,7 @@ export const MY_PROJECTS: Array<Project> = [
 
 		shortDescription: `Crafted Dharamveer-Foundation's frontend with React, Next.js, Sass, HTML, CSS, and JS. Integrated donation APIs, ensuring a seamless, visually stunning platform. Positive collaboration and precise client communication facilitated a smooth development process.`,
 		links: [
-			{ to: '', label: 'Website' },
+			{ to: 'https://www.dharmveerfoundation.com/', label: 'Website' },
 			{
 				to: 'https://www.figma.com/file/HSsAwbPB7jpXXxT6po5GXk/Dharmaveer-Foundation-(Copy)?type=design&t=1c3ZFpwJl0RxHf2l-6',
 				label: 'Reference'
@@ -1459,7 +1459,7 @@ export const MY_PROJECTS: Array<Project> = [
 			to: new Date('2023-01-22')
 		},
 		skills: getSkills('reactjs', 'nextjs', 'sass', 'html', 'css', 'js'),
-		type: 'Info Website | Scatch',
+		type: 'Info Website | Scratch',
 		screenshots: [
 			{
 				label: 'screen 1',
