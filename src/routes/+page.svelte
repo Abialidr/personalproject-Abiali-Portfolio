@@ -82,15 +82,16 @@
 				<div>
 					<h1>hello world !!!</h1>
 					<p>
-						I'm not your typical designer glued to an artboard. Instead, I dive into stylesheets,
-						tweak fonts, and ponder layouts with a smile (~_^). My goal? Crafting smooth user
-						experiences that are both functional and trendy.
+						I'm probably not the typical designer positioned behind an Illustrator artboard
+						adjusting pixels, but I design. Immersed in stylesheets tweaking font sizes and
+						contemplating layouts is where you'll find me (~_^). I'm committed to creating fluent
+						user experiences while staying fashionable.
 					</p>
 					<br />
 					<p>
-						In the JavaScript world, I've got the tools to build snappy, resilient applications.
-						Whether collaborating or going solo, I focus on performance and scalability. Simply put,
-						I make tech work, and I make it look good!
+						In building JavaScript applications, I'm equipped with just the right tools, and can
+						absolutely function independently of them to deliver fast, resilient solutions optimized
+						for scale — performance and scalabilty are priorities on my radar.
 					</p>
 				</div>
 			</div>
