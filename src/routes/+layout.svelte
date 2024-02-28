@@ -4,8 +4,10 @@
 	import '$lib/index.scss';
 	import { onHydrated, theme } from '$lib/stores/theme';
 	import { onMount } from 'svelte';
+	import { injectSpeedInsights } from '@vercel/speed-insights/sveltekit';
+	import { Analytics } from '@vercel/analytics/react';
 	// import Footer from '$lib/components/Footer/Footer.svelte';
-
+	injectSpeedInsights();
 	export const prerender = true;
 
 	onMount(() => onHydrated());

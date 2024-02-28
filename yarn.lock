@@ -629,7 +629,7 @@
   resolved "https://registry.npmjs.org/@sveltejs/adapter-static/-/adapter-static-2.0.3.tgz"
   integrity sha512-VUqTfXsxYGugCpMqQv1U0LIdbR3S5nBkMMDmpjGVJyM6Q2jHVMFtdWJCkeHMySc6mZxJ+0eZK3T7IgmUCDrcUQ==
 
-"@sveltejs/kit@^1.0.0", "@sveltejs/kit@^1.5.0", "@sveltejs/kit@1.25.0":
+"@sveltejs/kit@^1 || ^2", "@sveltejs/kit@^1.0.0", "@sveltejs/kit@^1.5.0", "@sveltejs/kit@1.25.0":
   version "1.25.0"
   resolved "https://registry.npmjs.org/@sveltejs/kit/-/kit-1.25.0.tgz"
   integrity sha512-+VqMWJJYtcLoF8hYkdqY2qs/MPaawrMwA/gNBJW2o2UrcuYdNiy0ZZnjQQuPD33df/VcAulnoeyzF5ZtaajFEw==
@@ -1026,6 +1026,18 @@
     chokidar "^3.5.3"
     fast-glob "^3.3.1"
     magic-string "^0.30.3"
+
+"@vercel/analytics@^1.2.2":
+  version "1.2.2"
+  resolved "https://registry.npmjs.org/@vercel/analytics/-/analytics-1.2.2.tgz"
+  integrity sha512-X0rctVWkQV1e5Y300ehVNqpOfSOufo7ieA5PIdna8yX/U7Vjz0GFsGf4qvAhxV02uQ2CVt7GYcrFfddXXK2Y4A==
+  dependencies:
+    server-only "^0.0.1"
+
+"@vercel/speed-insights@^1.0.10":
+  version "1.0.10"
+  resolved "https://registry.npmjs.org/@vercel/speed-insights/-/speed-insights-1.0.10.tgz"
+  integrity sha512-4uzdKB0RW6Ff2FkzshzjZ+RlJfLPxgm/00i0XXgxfMPhwnnsk92YgtqsxT9OcPLdJUyVU1DqFlSWWjIQMPkh0g==
 
 acorn-jsx@^5.3.2:
   version "5.3.2"
@@ -2371,6 +2383,11 @@ semver@^7.3.7:
   dependencies:
     lru-cache "^6.0.0"
 
+server-only@^0.0.1:
+  version "0.0.1"
+  resolved "https://registry.npmjs.org/server-only/-/server-only-0.0.1.tgz"
+  integrity sha512-qepMx2JxAa5jjfzxG79yPPq+8BuFToHd1hm7kI+Z4zAq1ftQiP7HcxMhDDItrbtwVeLg/cY2JnKnrcFkmiswNA==
+
 set-cookie-parser@^2.6.0:
   version "2.6.0"
   resolved "https://registry.npmjs.org/set-cookie-parser/-/set-cookie-parser-2.6.0.tgz"
@@ -2517,7 +2534,7 @@ svelte-video@^0.0.1:
   resolved "https://registry.npmjs.org/svelte-video/-/svelte-video-0.0.1.tgz"
   integrity sha512-jDQaKjekNMUEFDnJkX4ns8JUccw/KP/Am/R2myLhMuMO8BWE88bG/JdX76znyTFNIZnAx/fBFPu1ebM8Isod+w==
 
-"svelte@^3.19.0 || ^4.0.0-next.0", svelte@^3.2.0, "svelte@^3.23.0 || ^4.0.0-next.0 || ^4.0.0", "svelte@^3.54.0 || ^4.0.0", "svelte@^3.54.0 || ^4.0.0-next.0", "svelte@^3.55.0 || ^4.0.0-next.0 || ^4.0.0", svelte@4.2.1:
+"svelte@^3.19.0 || ^4.0.0-next.0", svelte@^3.2.0, "svelte@^3.23.0 || ^4.0.0-next.0 || ^4.0.0", "svelte@^3.54.0 || ^4.0.0", "svelte@^3.54.0 || ^4.0.0-next.0", "svelte@^3.55.0 || ^4.0.0-next.0 || ^4.0.0", svelte@^4, svelte@4.2.1:
   version "4.2.1"
   resolved "https://registry.npmjs.org/svelte/-/svelte-4.2.1.tgz"
   integrity sha512-LpLqY2Jr7cRxkrTc796/AaaoMLF/1ax7cto8Ot76wrvKQhrPmZ0JgajiWPmg9mTSDqO16SSLiD17r9MsvAPTmw==
