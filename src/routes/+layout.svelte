@@ -5,9 +5,11 @@
 	import { onHydrated, theme } from '$lib/stores/theme';
 	import { onMount } from 'svelte';
 	import { injectSpeedInsights } from '@vercel/speed-insights/sveltekit';
-	import { Analytics } from '@vercel/analytics/react';
+	import { inject } from '@vercel/analytics';
 	// import Footer from '$lib/components/Footer/Footer.svelte';
 	injectSpeedInsights();
+
+	inject({ mode: 'production' });
 	export const prerender = true;
 
 	onMount(() => onHydrated());
