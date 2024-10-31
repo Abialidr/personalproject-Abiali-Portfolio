@@ -1,24 +1,24 @@
 
-Name :- Wedcell-Admin 
+Name :- Wedfield-Admin 
 
 type :- Admin website | Scratch
 
-links :- website :- https://admin.wedcell.com/
+links :- website :- https://admin.wedfield.com/
 
 tools :-  React, Redux Toolkit, Axios, React Slick, Material-UI (mui), Styled-components, Next.js, Lottie-web, Chart.js, Lido.js, Ant Design (antd), Moment.js, Socket.io, and Yup,
 
 Description :-
 
-The Wedcell-Admin project was developed from scratch, and I played a pivotal role in crafting the frontend using Next.js. Employing a tech stack that included React, Redux Toolkit, Axios, React Slick, Material-UI (mui), Styled-components, Next.js, Lottie-web, Chart.js, Lido.js, Ant Design (antd), Moment.js, Socket.io, and Yup, I ensured a robust and feature-rich user interface.
+The Wedfield-Admin project was developed from scratch, and I played a pivotal role in crafting the frontend using Next.js. Employing a tech stack that included React, Redux Toolkit, Axios, React Slick, Material-UI (mui), Styled-components, Next.js, Lottie-web, Chart.js, Lido.js, Ant Design (antd), Moment.js, Socket.io, and Yup, I ensured a robust and feature-rich user interface.
 
-Wedcell-Admin served as the administrative hub for the main website, Wedcell.com. It efficiently managed various administrative and designer tasks. The project encompassed functionalities such as a messaging app, payment gateway integration, and a review management system. Additionally, the designer module allowed the creation of new design cards integrated into the invitation side of Wedcell.com. The overarching goal was to streamline and enhance administrative and design processes.
+Wedfield-Admin served as the administrative hub for the main website, Wedfield.com. It efficiently managed various administrative and designer tasks. The project encompassed functionalities such as a messaging app, payment gateway integration, and a review management system. Additionally, the designer module allowed the creation of new design cards integrated into the invitation side of Wedfield.com. The overarching goal was to streamline and enhance administrative and design processes.
 
 As a front-end developer, my primary responsibility was to transform Figma designs into functional and aesthetically pleasing frontend layouts. I integrated numerous APIs using Axios and implemented complex functions. Regular meetings with the client and the provision of frequent progress reports were part of my routine. I was the driving force behind building all functionalities from the ground up. These functionalities included admin control over users, vendors, venue owners, and product owners, along with the ability to add new blogs, engage in direct chat with clients and vendors, and access and maintain discipline within all chats. Furthermore, the admin had control over all products and a designer tool to create new cards for the main website.
 
-My experience with this project was exceptionally positive. The client's precise communication about tasks facilitated timely completion, contributing to a smooth development process. Working on Wedcell-Admin allowed me to hone my skills, tackle challenging functionalities, and collaborate effectively with the client to achieve their vision for the platform.
+My experience with this project was exceptionally positive. The client's precise communication about tasks facilitated timely completion, contributing to a smooth development process. Working on Wedfield-Admin allowed me to hone my skills, tackle challenging functionalities, and collaborate effectively with the client to achieve their vision for the platform.
 
 Short Description :-
 
-Led development of Wedcell-Admin using Next.js, React, Redux Toolkit, and a diverse tech stack. Enhanced Wedcell.com's admin capabilities with features like messaging, payment integration, and a designer module. Translated Figma designs, integrated APIs, and ensured robust functionality. Positive experience, collaborating effectively with the client for a streamlined and feature-rich platform.
+Led development of Wedfield-Admin using Next.js, React, Redux Toolkit, and a diverse tech stack. Enhanced Wedfield.com's admin capabilities with features like messaging, payment integration, and a designer module. Translated Figma designs, integrated APIs, and ensured robust functionality. Positive experience, collaborating effectively with the client for a streamlined and feature-rich platform.
 
 from 1/5/23 to 31/10/23

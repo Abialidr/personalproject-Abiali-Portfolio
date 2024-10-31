@@ -770,27 +770,30 @@ export const MY_PROJECTS: Array<Project> = [
 		]
 	},
 	{
-		slug: 'Wedcell',
+		slug: 'Wedfield',
 		color: '#b6044f',
 		description: [
-			`The Wedcell project was initiated from scratch, representing a comprehensive platform within the wedding industry. My primary focus was on the frontend development using Next JS. Leveraging a stack that included technologies such as React, Redux Toolkit, RTK Query, Axios, React Slick, Material-UI (Mui), Styled-components Lottie-web, Chart.js, Capacitor, Lidojs, Ant Design (AntD), Bootstrap, Socket.io, Tawk.to, Yup, TypeScript, JavaScript, HTML, and CSS.`,
-			`Wedcell served as the central hub connecting vendors, administrators, and users. Its core objective was to cater to individuals planning to get married by offering them a platform to discover the best vendors, venues, and products at competitive prices. Additionally, the platform provided tools to streamline the wedding process, including features like guest lists, online invitations, task management, and more.`,
+			`The Wedfield project was initiated from scratch, representing a comprehensive platform within the wedding industry. My primary focus was on the frontend development using Next JS. Leveraging a stack that included technologies such as React, Redux Toolkit, RTK Query, Axios, React Slick, Material-UI (Mui), Styled-components Lottie-web, Chart.js, Capacitor, Lidojs, Ant Design (AntD), Bootstrap, Socket.io, Tawk.to, Yup, TypeScript, JavaScript, HTML, and CSS.`,
+			`Wedfield served as the central hub connecting vendors, administrators, and users. Its core objective was to cater to individuals planning to get married by offering them a platform to discover the best vendors, venues, and products at competitive prices. Additionally, the platform provided tools to streamline the wedding process, including features like guest lists, online invitations, task management, and more.`,
 			`Undertaking the project independently, I developed a versatile event planning platform. Key features include venue/vendor showcases, a chat app for user/vendor communication, an e-commerce site with integrated payments and delivery services, a Canva-like card editor linked to WhatsApp, and planning tools. Additionally, I utilized Capacitor to create a mobile app, extending accessibility. The platform also features a blog section for wedding-related content.`,
-			'My experience working on the Wedcell project was highly positive. The client, led by Shanteshwar Dixit (CEO), provided clear and precise instructions, facilitating a smooth development process. The scale of the project allowed me to demonstrate my capabilities in managing and implementing diverse functionalities, contributing significantly to the success of the platform.			'
+			'My experience working on the Wedfield project was highly positive. The client, led by Shanteshwar Dixit (CEO), provided clear and precise instructions, facilitating a smooth development process. The scale of the project allowed me to demonstrate my capabilities in managing and implementing diverse functionalities, contributing significantly to the success of the platform.			'
 		],
 
 		shortDescription:
-			'Led Wedcell project from scratch, focusing on Next JS frontend. Integrated diverse tech stack. Platform connects vendors, users, streamlining wedding planning. Developed independently: venue showcases, chat app, e-commerce with payments, Canva-like card editor, WhatsApp integration. Positive experience with precise guidance from CEO Shanteshwar Dixit. Demonstrated versatility, contributing to platform success.			',
+			'Led Wedfield project from scratch, focusing on Next JS frontend. Integrated diverse tech stack. Platform connects vendors, users, streamlining wedding planning. Developed independently: venue showcases, chat app, e-commerce with payments, Canva-like card editor, WhatsApp integration. Positive experience with precise guidance from CEO Shanteshwar Dixit. Demonstrated versatility, contributing to platform success.			',
 		links: [
 			// { to: 'https://github.com/RiadhAdrani/slick-portfolio-svelte', label: 'GitHub' },
-			{ to: 'https://wedcell.com/', label: 'Website' },
+			{ to: 'https://wedfield.com/', label: 'Website' },
 			{
-				to: `https://play.google.com/store/apps/details?id=wedcell.com&pcampaignid=web_share`,
-				label: 'Mobile App'
+				to: `https://play.google.com/store/apps/details?id=com.wedding.wedfield&pcampaignid=web_share`,
+				label: 'Android App'
+			},{
+				to: `https://apps.apple.com/in/app/wedfield-wedding-marketplace/id6736426335`,
+				label: 'Ios App'
 			}
 		],
 		logo: '/Project/wedcell/logo.png',
-		name: 'Wedcell',
+		name: 'Wedfield',
 		period: {
 			from: new Date('2023-05-01'),
 			to: new Date('2023-10-31')
@@ -881,22 +884,22 @@ export const MY_PROJECTS: Array<Project> = [
 		]
 	},
 	{
-		slug: 'Wedcell-Admin',
+		slug: 'Wedfield-Admin',
 		color: '#b6044f',
 		description: [
-			`The Wedcell-Admin project was developed from scratch, and I played a pivotal role in crafting the frontend using Next.js. Employing a tech stack that included React, Redux Toolkit, Axios, React Slick, Material-UI (mui), Styled-components, Next.js, Lottie-web, Chart.js, Lido.js, Ant Design (antd), Moment.js, Socket.io, and Yup, I ensured a robust and feature-rich user interface.`,
-			`Wedcell-Admin served as the administrative hub for the main website, Wedcell.com. It efficiently managed various administrative and designer tasks. The project encompassed functionalities such as a messaging app, payment gateway integration, and a review management system. Additionally, the designer module allowed the creation of new design cards integrated into the invitation side of Wedcell.com. The overarching goal was to streamline and enhance administrative and design processes.`,
+			`The Wedfield-Admin project was developed from scratch, and I played a pivotal role in crafting the frontend using Next.js. Employing a tech stack that included React, Redux Toolkit, Axios, React Slick, Material-UI (mui), Styled-components, Next.js, Lottie-web, Chart.js, Lido.js, Ant Design (antd), Moment.js, Socket.io, and Yup, I ensured a robust and feature-rich user interface.`,
+			`Wedfield-Admin served as the administrative hub for the main website, Wedfield.com. It efficiently managed various administrative and designer tasks. The project encompassed functionalities such as a messaging app, payment gateway integration, and a review management system. Additionally, the designer module allowed the creation of new design cards integrated into the invitation side of Wedfield.com. The overarching goal was to streamline and enhance administrative and design processes.`,
 			`As a front-end developer, my primary responsibility was to transform Figma designs into functional and aesthetically pleasing frontend layouts. I integrated numerous APIs using Axios and implemented complex functions. Regular meetings with the client and the provision of frequent progress reports were part of my routine. I was the driving force behind building all functionalities from the ground up. These functionalities included admin control over users, vendors, venue owners, and product owners, along with the ability to add new blogs, engage in direct chat with clients and vendors, and access and maintain discipline within all chats. Furthermore, the admin had control over all products and a designer tool to create new cards for the main website.`,
-			`My experience with this project was exceptionally positive. The client's precise communication about tasks facilitated timely completion, contributing to a smooth development process. Working on Wedcell-Admin allowed me to hone my skills, tackle challenging functionalities, and collaborate effectively with the client to achieve their vision for the platform.`
+			`My experience with this project was exceptionally positive. The client's precise communication about tasks facilitated timely completion, contributing to a smooth development process. Working on Wedfield-Admin allowed me to hone my skills, tackle challenging functionalities, and collaborate effectively with the client to achieve their vision for the platform.`
 		],
 
-		shortDescription: `Led development of Wedcell-Admin using Next.js, React, Redux Toolkit, and a diverse tech stack. Enhanced Wedcell.com's admin capabilities with features like messaging, payment integration, and a designer module. Translated Figma designs, integrated APIs, and ensured robust functionality. Positive experience, collaborating effectively with the client for a streamlined and feature-rich platform.`,
+		shortDescription: `Led development of Wedfield-Admin using Next.js, React, Redux Toolkit, and a diverse tech stack. Enhanced Wedfield.com's admin capabilities with features like messaging, payment integration, and a designer module. Translated Figma designs, integrated APIs, and ensured robust functionality. Positive experience, collaborating effectively with the client for a streamlined and feature-rich platform.`,
 		links: [
 			// { to: 'https://github.com/RiadhAdrani/slick-portfolio-svelte', label: 'GitHub' },
-			{ to: 'https://admin.wedcell.com/', label: 'Website' }
+			{ to: 'https://admin.wedfield.com/', label: 'Website' }
 		],
 		logo: '/Project/wedcelladmin/logo.png',
-		name: 'Wedcell-Admin ',
+		name: 'Wedfield-Admin ',
 		period: {
 			from: new Date('2023-05-01'),
 			to: new Date('2023-10-31')
@@ -981,26 +984,29 @@ export const MY_PROJECTS: Array<Project> = [
 		]
 	},
 	{
-		slug: 'Wedcell-Vendors',
+		slug: 'Wedfield-Vendors',
 		color: '#b6044f',
 		description: [
-			`The Wedcell-Vendors website, developed for Wedcell PVT LTD, was a project that focused on enhancing the vendor side of the main website, Wedcell.com. My role primarily involved working on the frontend using Next.js and implementing various technologies such as React, Redux Toolkit, Axios, React Slick, MUI, Styled-components, Next.js, Lottie-web, Chart.js, and more. It's important to note that the project was built from scratch`,
-			`The primary objective of the Wedcell-Vendors website was to serve as the vendor-side platform for Wedcell.com. This section of the project handled accounts for vendors, venue owners, and product owners. Notable features included a messaging app, payment gateway integration, Delhivery system for logistics, review management system, and an overall vendors management system. The project aimed to streamline and optimize the vendor-related processes on the Wedcell platform, contributing to a seamless experience for users and enhancing the efficiency of vendor management.`,
+			`The Wedfield-Vendors website, developed for Wedfield PVT LTD, was a project that focused on enhancing the vendor side of the main website, Wedfield.com. My role primarily involved working on the frontend using Next.js and implementing various technologies such as React, Redux Toolkit, Axios, React Slick, MUI, Styled-components, Next.js, Lottie-web, Chart.js, and more. It's important to note that the project was built from scratch`,
+			`The primary objective of the Wedfield-Vendors website was to serve as the vendor-side platform for Wedfield.com. This section of the project handled accounts for vendors, venue owners, and product owners. Notable features included a messaging app, payment gateway integration, Delhivery system for logistics, review management system, and an overall vendors management system. The project aimed to streamline and optimize the vendor-related processes on the Wedfield platform, contributing to a seamless experience for users and enhancing the efficiency of vendor management.`,
 			`As a front-end developer in the project, I played a pivotal role in bringing the designs from Figma to life. My responsibilities extended to integrating various APIs using Axios, developing complex functions, and ensuring the smooth execution of the frontend. From creating UI components to handling API integrations and complex functionalities, my work encompassed the entire spectrum of front-end development. Regular client meetings were also part of my routine, where I provided updates and reports on the project's progress. Essentially, I took charge of building the entire functionality from scratch, contributing significantly to the success of the project. In addition to my front-end development role, I successfully extended the project's reach by creating a mobile app using Capacitor. This initiative enhanced the platform's accessibility, allowing users to engage seamlessly through a dedicated mobile application.`,
-			`My experience with the Wedcell-Vendors project was exceptionally positive. The client, Shanteshwar Dixit (CEO), provided clear and precise task descriptions, facilitating efficient and timely completion of assignments. This clarity in communication contributed to a smooth workflow and a successful project outcome. Overall, my time working on this project was enriching, allowing me to apply my skills and contribute meaningfully to the development of a crucial aspect of the Wedcell platform.`
+			`My experience with the Wedfield-Vendors project was exceptionally positive. The client, Shanteshwar Dixit (CEO), provided clear and precise task descriptions, facilitating efficient and timely completion of assignments. This clarity in communication contributed to a smooth workflow and a successful project outcome. Overall, my time working on this project was enriching, allowing me to apply my skills and contribute meaningfully to the development of a crucial aspect of the Wedfield platform.`
 		],
 
-		shortDescription: `I led the frontend development of Wedcell-Vendors, a Next.js project, enhancing Wedcell.com. My role included API integration, complex functionalities, and client meetings. Built from scratch, it streamlined vendor processes, integrating features like messaging, payment gateways, and logistics. Shanteshwar Dixit's clear instructions facilitated a positive experience, contributing to the project's success.`,
+		shortDescription: `I led the frontend development of Wedfield-Vendors, a Next.js project, enhancing Wedfield.com. My role included API integration, complex functionalities, and client meetings. Built from scratch, it streamlined vendor processes, integrating features like messaging, payment gateways, and logistics. Shanteshwar Dixit's clear instructions facilitated a positive experience, contributing to the project's success.`,
 		links: [
 			// { to: 'https://github.com/RiadhAdrani/slick-portfolio-svelte', label: 'GitHub' },
-			{ to: 'https://vendors.wedcell.com/', label: 'Website' },
+			{ to: 'https://vendors.wedfield.com/', label: 'Website' },
 			{
-				to: 'https://play.google.com/store/apps/details?id=vendors.wedcell.com&pcampaignid=web_share',
-				label: 'Mobile App'
+				to: 'https://play.google.com/store/apps/details?id=com.business.wedfield',
+				label: 'Android App'
+			},{
+				to: 'https://apps.apple.com/in/app/wedfield-business/id6736427192',
+				label: 'Ios App'
 			}
 		],
 		logo: '/Project/wedcellVendors/logo.png',
-		name: 'Wedcell-Vendors ',
+		name: 'Wedfield-Vendors ',
 		period: {
 			from: new Date('2023-05-01'),
 			to: new Date('2023-10-31')
@@ -1073,21 +1079,21 @@ export const MY_PROJECTS: Array<Project> = [
 		]
 	},
 	{
-		slug: 'Wedcell-Backend',
+		slug: 'Wedfield-Backend',
 		color: '#b6044f',
 		description: [
-			`The Wedcell website, developed from scratch, stands as a testament to my proficiency in backend development using Express.js and Node.js. Employing a robust tech stack, including Axios, Bcrypt, JWT, CORS, Multer, S3, WhatsApp API, Delhivery, Razorpay, MongoDB, Mongoose, and Socket.io, I ensured the website's seamless functionality and enhanced user experience.`,
-			`Wedcell, the platform for which I crafted the backend, was designed to be a comprehensive solution for users seeking the best vendors, venues, products, and services related to weddings. The project aimed to streamline the process of wedding planning, offering a one-stop-shop for users to discover and engage with various wedding-related services and products.`,
-			`As a dedicated backend developer at Wedcell Pvt Ltd, I spearheaded the creation of diverse APIs aligned with user workflows. My responsibilities encompassed the entire backend ecosystem, including the development of middleware, controllers, routes, and models to establish RESTful APIs. Additionally, I optimized these APIs for optimal performance. The integration of S3 for image storage on AWS buckets and the implementation of Socket.io for real-time communication were key aspects of my contributions, ensuring a seamless and interactive user experience.`,
-			`My experience with the Wedcell project was exceptionally positive. Clear and precise communication from the client facilitated the timely completion of tasks, contributing to a smooth development process.`
+			`The Wedfield website, developed from scratch, stands as a testament to my proficiency in backend development using Express.js and Node.js. Employing a robust tech stack, including Axios, Bcrypt, JWT, CORS, Multer, S3, WhatsApp API, Delhivery, Razorpay, MongoDB, Mongoose, and Socket.io, I ensured the website's seamless functionality and enhanced user experience.`,
+			`Wedfield, the platform for which I crafted the backend, was designed to be a comprehensive solution for users seeking the best vendors, venues, products, and services related to weddings. The project aimed to streamline the process of wedding planning, offering a one-stop-shop for users to discover and engage with various wedding-related services and products.`,
+			`As a dedicated backend developer at Wedfield Pvt Ltd, I spearheaded the creation of diverse APIs aligned with user workflows. My responsibilities encompassed the entire backend ecosystem, including the development of middleware, controllers, routes, and models to establish RESTful APIs. Additionally, I optimized these APIs for optimal performance. The integration of S3 for image storage on AWS buckets and the implementation of Socket.io for real-time communication were key aspects of my contributions, ensuring a seamless and interactive user experience.`,
+			`My experience with the Wedfield project was exceptionally positive. Clear and precise communication from the client facilitated the timely completion of tasks, contributing to a smooth development process.`
 		],
 
-		shortDescription: `Crafted Wedcell backend with Express.js & Node.js, utilizing a robust tech stack. Streamlined wedding planning, creating APIs, optimizing performance, and ensuring seamless user experiences. Positive client communication led to a smooth development process.`,
+		shortDescription: `Crafted Wedfield backend with Express.js & Node.js, utilizing a robust tech stack. Streamlined wedding planning, creating APIs, optimizing performance, and ensuring seamless user experiences. Positive client communication led to a smooth development process.`,
 		links: [
 			// { to: 'https://github.com/RiadhAdrani/slick-portfolio-svelte', label: 'GitHub' },
 		],
 		logo: '/Project/wedcell/logo.png',
-		name: 'Wedcell-Backend',
+		name: 'Wedfield-Backend',
 		period: {
 			from: new Date('2023-05-01'),
 			to: new Date('2023-10-31')
@@ -1348,17 +1354,17 @@ export const MY_PROJECTS: Array<Project> = [
 		slug: 'WedCell-Institute',
 		color: '#bd2864',
 		description: [
-			`Built from scratch, the Wedcell-Institute website's frontend featured technologies like React.js, Next.js, Sass, Slick Carousel, HTML, CSS, and JS for a comprehensive and engaging user experience`,
-			`Focused on the frontend, the project served as an informative website for Wedcell Institute, providing a platform to showcase relevant information and offerings.`,
-			`As a dedicated Frontend Developer, my primary objective was to create a visually striking and flawless design for the Wedcell-Institute website, ensuring it met the client's expectations.`,
-			`My journey with the Wedcell-Institute project was exceptionally positive. Clear communication from the client facilitated efficient task completion, fostering a smooth development process. Working on this project allowed me to refine my skills, address complex functionalities, and collaborate effectively with the client to bring their vision for the platform to life.`
+			`Built from scratch, the Wedfield-Institute website's frontend featured technologies like React.js, Next.js, Sass, Slick Carousel, HTML, CSS, and JS for a comprehensive and engaging user experience`,
+			`Focused on the frontend, the project served as an informative website for Wedfield Institute, providing a platform to showcase relevant information and offerings.`,
+			`As a dedicated Frontend Developer, my primary objective was to create a visually striking and flawless design for the Wedfield-Institute website, ensuring it met the client's expectations.`,
+			`My journey with the Wedfield-Institute project was exceptionally positive. Clear communication from the client facilitated efficient task completion, fostering a smooth development process. Working on this project allowed me to refine my skills, address complex functionalities, and collaborate effectively with the client to bring their vision for the platform to life.`
 		],
 
-		shortDescription: `Crafted Wedcell-Institute's frontend with precision using React, Next.js, Sass, and more. Positive collaboration with the client ensured a flawless, informative website, showcasing expertise in design and development.`,
+		shortDescription: `Crafted Wedfield-Institute's frontend with precision using React, Next.js, Sass, and more. Positive collaboration with the client ensured a flawless, informative website, showcasing expertise in design and development.`,
 		links: [
 			{ to: 'https://www.wedcellinstitute.com/', label: 'Website' },
 			{
-				to: 'https://www.figma.com/file/jIq9k2W9PkgqfkxjzgZW3i/Wedcell-final?type=design&t=1c3ZFpwJl0RxHf2l-6',
+				to: 'https://www.figma.com/file/jIq9k2W9PkgqfkxjzgZW3i/Wedfield-final?type=design&t=1c3ZFpwJl0RxHf2l-6',
 				label: 'Reference'
 			}
 		],

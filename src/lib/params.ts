@@ -58,7 +58,7 @@ export const HOME: HomePageParams = {
 	name: 'Abiali',
 	lastName: 'Doctor',
 	description:
-		'I am a versatile developer with 3.5 years of experience in JavaScript, specializing in both front-end and back-end development. My expertise extends to creating dynamic and interactive web applications, ensuring robust and efficient solutions.',
+		'I am a versatile developer with 4+ years of experience in JavaScript, specializing in both front-end and back-end development. My expertise extends to creating dynamic and interactive web applications, ensuring robust and efficient solutions.',
 	links: [
 		{ platform: Platform.GitHub, link: 'https://github.com/Abialidr' },
 		{

@@ -93,12 +93,12 @@ const MY_EXPERIENCES: Array<Experience> = [
 	},
 	{
 		slug: 'Senior Full-Stack Developer',
-		company: 'Wedcell',
+		company: 'Wedfield',
 		description: [
 			{
 				type: 'para',
 				content:
-					'As a pivotal member of the Wedcell team, I undertook a challenging 6-month contract as a Frontend and Backend Developer, contributing significantly to the development of websites and applications catering to the wedding industry.'
+					'As a pivotal member of the Wedfield team, I undertook a challenging 6-month contract as a Frontend and Backend Developer, contributing significantly to the development of websites and applications catering to the wedding industry.'
 			},
 			{
 				type: 'title',
@@ -137,7 +137,7 @@ const MY_EXPERIENCES: Array<Experience> = [
 		links: [],
 		logo: Assets.Unknown,
 		shortDescription:
-			'As a pivotal member of the Wedcell team, I excelled in a 6-month contract as a Frontend and Backend Developer, translating design concepts into seamless interfaces, integrating functionalities, managing databases, and facilitating API connections. I demonstrated adaptability in dynamic project environments, collaborating closely with the CEO for project progress and feature implementation.'
+			'As a pivotal member of the Wedfield team, I excelled in a 6-month contract as a Frontend and Backend Developer, translating design concepts into seamless interfaces, integrating functionalities, managing databases, and facilitating API connections. I demonstrated adaptability in dynamic project environments, collaborating closely with the CEO for project progress and feature implementation.'
 	},
 	{
 		slug: 'Junior Full Stack Developer',
