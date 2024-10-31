@@ -3,94 +3,94 @@ import { getSkills } from './skills.params';
 import { ContractType, type Experience } from './types';
 
 const MY_EXPERIENCES: Array<Experience> = [
-	{
-		slug: 'Mid-Senior Full-Stack Developer',
-		company: 'Avantica Inovotations',
-		description: [
-			{
-				type: 'para',
-				content:
-					'I worked with Avantica Innovations for 2 months. The­ project created a we­b application using new technologies. I he­lped ensure it succe­eded.'
-			},
-			{
-				type: 'title',
-				content: 'Responsibilities:'
-			},
-			{
-				type: 'title2',
-				content: 'Front-End Development:'
-			},
-			{
-				type: 'list',
-				content: [
-					'Developed reusable and clean code with minimal dependencies in a Next.js project.',
-					'Translated designs from Figma into functional components, ensuring a seamless user experience.',
-					'Integrated APIs from the backend and crafted reusable components for efficient development'
-				]
-			},
-			{
-				type: 'title2',
-				content: 'Collaborative Decision-Making:'
-			},
-			{
-				type: 'list',
-				content: [
-					'Contributed to decision-making processes regarding API integration strategies and project optimization.',
-					'Shared experiences as a developer to guide the team towards optimal solutions.'
-				]
-			},
-			{
-				type: 'title2',
-				content: 'Back-End Development:'
-			},
-			{
-				type: 'list',
-				content: [
-					'Integrated the database with the backend, creating models, routes, and controllers for a suitable REST API.',
-					'Implemented S3 bucket integration using multer-s3 for efficient file handling. Optimized APIs to enhance overall system performance.'
-				]
-			},
-			{
-				type: 'title',
-				content: 'Technology Stack:'
-			},
-			{
-				type: 'list',
-				content: [
-					'Front-End: React.js, Next.js, TypeScript, JavaScript, JSX, HTML, CSS, Modular CSS, Redux, Redux Toolkit, RTK Query, GitHub.',
-					`Back-end: Node.js, Express, MongoDB.`,
-					`Additional Tools: Multer-S3, CORS, JWT, etc.`
-				]
-			},
-			{
-				type: 'title',
-				content: 'Achievements:'
-			},
-			{
-				type: 'list',
-				content: [
-					'Successfully contributed to the completion of the project within the stipulated timeframe.',
-					`Ensured high code quality and maintainability through the use of best practices`,
-					`Collaborated effectively with cross-functional teams to drive successful project outcomes.`
-				]
-			},
-			{
-				type: 'para',
-				content:
-					'This experience at Avantica Innovations honed my skills in rapid development, collaborative decision-making, and the application of a diverse tech stack in a real-world project environment. The experience has further solidified my capabilities as a Mid Senior Full Stack Developer, ready to take on new challenges and contribute effectively to dynamic development projects.'
-			}
-		],
-		contract: ContractType.Contract,
-		type: 'Remote',
-		location: 'Surat',
-		period: { from: new Date('2023-11-01'), to: new Date('2024-1-31') },
-		name: 'Full-Stack Developer',
-		color: '#ffffff',
-		links: [],
-		logo: Assets.Unknown,
-		shortDescription:
-			'Contributed to Avantica Innovations for 2 months, leading a Next.js project. Built a robust, modular codebase, integrated APIs seamlessly, and collaborated with designers using Figma. Tech stack: React.js, Next.js, TypeScript, Redux, Git. Proven ability to deliver quality results under tight deadlines, showcasing strong collaboration and decision-making skills.'
-	},
+	// {
+	// 	slug: 'Mid-Senior Full-Stack Developer',
+	// 	company: 'Avantica Inovotations',
+	// 	description: [
+	// 		{
+	// 			type: 'para',
+	// 			content:
+	// 				'I worked with Avantica Innovations for 2 months. The­ project created a we­b application using new technologies. I he­lped ensure it succe­eded.'
+	// 		},
+	// 		{
+	// 			type: 'title',
+	// 			content: 'Responsibilities:'
+	// 		},
+	// 		{
+	// 			type: 'title2',
+	// 			content: 'Front-End Development:'
+	// 		},
+	// 		{
+	// 			type: 'list',
+	// 			content: [
+	// 				'Developed reusable and clean code with minimal dependencies in a Next.js project.',
+	// 				'Translated designs from Figma into functional components, ensuring a seamless user experience.',
+	// 				'Integrated APIs from the backend and crafted reusable components for efficient development'
+	// 			]
+	// 		},
+	// 		{
+	// 			type: 'title2',
+	// 			content: 'Collaborative Decision-Making:'
+	// 		},
+	// 		{
+	// 			type: 'list',
+	// 			content: [
+	// 				'Contributed to decision-making processes regarding API integration strategies and project optimization.',
+	// 				'Shared experiences as a developer to guide the team towards optimal solutions.'
+	// 			]
+	// 		},
+	// 		{
+	// 			type: 'title2',
+	// 			content: 'Back-End Development:'
+	// 		},
+	// 		{
+	// 			type: 'list',
+	// 			content: [
+	// 				'Integrated the database with the backend, creating models, routes, and controllers for a suitable REST API.',
+	// 				'Implemented S3 bucket integration using multer-s3 for efficient file handling. Optimized APIs to enhance overall system performance.'
+	// 			]
+	// 		},
+	// 		{
+	// 			type: 'title',
+	// 			content: 'Technology Stack:'
+	// 		},
+	// 		{
+	// 			type: 'list',
+	// 			content: [
+	// 				'Front-End: React.js, Next.js, TypeScript, JavaScript, JSX, HTML, CSS, Modular CSS, Redux, Redux Toolkit, RTK Query, GitHub.',
+	// 				`Back-end: Node.js, Express, MongoDB.`,
+	// 				`Additional Tools: Multer-S3, CORS, JWT, etc.`
+	// 			]
+	// 		},
+	// 		{
+	// 			type: 'title',
+	// 			content: 'Achievements:'
+	// 		},
+	// 		{
+	// 			type: 'list',
+	// 			content: [
+	// 				'Successfully contributed to the completion of the project within the stipulated timeframe.',
+	// 				`Ensured high code quality and maintainability through the use of best practices`,
+	// 				`Collaborated effectively with cross-functional teams to drive successful project outcomes.`
+	// 			]
+	// 		},
+	// 		{
+	// 			type: 'para',
+	// 			content:
+	// 				'This experience at Avantica Innovations honed my skills in rapid development, collaborative decision-making, and the application of a diverse tech stack in a real-world project environment. The experience has further solidified my capabilities as a Mid Senior Full Stack Developer, ready to take on new challenges and contribute effectively to dynamic development projects.'
+	// 		}
+	// 	],
+	// 	contract: ContractType.Contract,
+	// 	type: 'Remote',
+	// 	location: 'Surat',
+	// 	period: { from: new Date('2023-11-01'), to: new Date('2024-1-31') },
+	// 	name: 'Full-Stack Developer',
+	// 	color: '#ffffff',
+	// 	links: [],
+	// 	logo: Assets.Unknown,
+	// 	shortDescription:
+	// 		'Contributed to Avantica Innovations for 2 months, leading a Next.js project. Built a robust, modular codebase, integrated APIs seamlessly, and collaborated with designers using Figma. Tech stack: React.js, Next.js, TypeScript, Redux, Git. Proven ability to deliver quality results under tight deadlines, showcasing strong collaboration and decision-making skills.'
+	// },
 	{
 		slug: 'Senior Full-Stack Developer',
 		company: 'Wedfield',
@@ -131,7 +131,7 @@ const MY_EXPERIENCES: Array<Experience> = [
 		contract: ContractType.Contract,
 		type: 'Remote',
 		location: 'Surat',
-		period: { from: new Date('2023-05-01'), to: new Date('2023-10-31') },
+		period: { from: new Date('2023-05-01'), to: undefined },
 		name: 'Senior Full-Stack Developer',
 		color: '#ffffff',
 		links: [],
